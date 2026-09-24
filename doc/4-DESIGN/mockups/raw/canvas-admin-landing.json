@@ -1,784 +1,923 @@
 {
  "v": 3,
- "createdOnFiles": {
-  "v": 1,
-  "at": "2026-09-24T08:41:32Z"
- },
- "title": "Onway UI Workflow — Admin & Landing",
- "launch": {
-  "view": "canvas",
-  "page": "overview"
- },
- "pages": [
-  {
-   "id": "overview",
-   "name": "Tổng quan"
-  },
-  {
-   "id": "admin",
-   "name": "Admin Portal"
-  },
-  {
-   "id": "landing",
-   "name": "Landing Web"
-  }
- ],
+ "attachments": {},
  "boards": {
-  "Main.dc.html": {
-   "x": 0,
-   "y": 0,
-   "w": 1760,
-   "h": 1160,
-   "title": "Tổng quan · UI Workflow P0",
-   "page": "overview",
-   "is_interactive": true
-  },
   "A-000.dc.html": {
-   "x": 0,
-   "y": 260,
-   "w": 4448,
    "h": 940,
-   "title": "A-000 - Admin login - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-000 - Admin login - Web 1440",
+   "w": 4448,
+   "x": 0,
+   "y": 260
   },
   "A-001.dc.html": {
-   "x": 4528,
-   "y": 260,
-   "w": 2944,
    "h": 940,
-   "title": "A-001 - OTP / second factor if enabled - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-001 - OTP / second factor if enabled - Web 1440",
+   "w": 2944,
+   "x": 4528,
+   "y": 260
   },
   "A-002.dc.html": {
-   "x": 7552,
-   "y": 260,
-   "w": 2944,
    "h": 940,
-   "title": "A-002 - Admin shell / sidebar - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-002 - Admin shell / sidebar - Web 1440",
+   "w": 2944,
+   "x": 7552,
+   "y": 260
   },
   "A-003.dc.html": {
-   "x": 0,
-   "y": 1320,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-003 - Permission denied - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 0,
+   "y": 1320
   },
   "A-004.dc.html": {
-   "x": 1520,
-   "y": 1320,
-   "w": 2944,
    "h": 940,
-   "title": "A-004 - Global search / command palette - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-004 - Global search / command palette - Web 1440",
+   "w": 2944,
+   "x": 1520,
+   "y": 1320
   },
   "A-005.dc.html": {
-   "x": 0,
-   "y": 2720,
-   "w": 4448,
    "h": 940,
-   "title": "A-005 - Dashboard overview - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-005 - Dashboard overview - Web 1440",
+   "w": 4448,
+   "x": 0,
+   "y": 2720
   },
   "A-006.dc.html": {
-   "x": 4528,
-   "y": 2720,
-   "w": 1440,
    "h": 940,
-   "title": "A-006 - Marketplace health widgets - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-006 - Marketplace health widgets - Web 1440",
+   "w": 1440,
+   "x": 4528,
+   "y": 2720
   },
   "A-007.dc.html": {
-   "x": 6048,
-   "y": 2720,
-   "w": 2944,
    "h": 940,
+   "page": "admin",
    "title": "A-007 - Live ops queue - Web 1440",
-   "page": "admin"
+   "w": 2944,
+   "x": 6048,
+   "y": 2720
   },
   "A-008.dc.html": {
-   "x": 0,
-   "y": 3780,
-   "w": 2944,
    "h": 940,
-   "title": "A-008 - Recent activity/audit preview - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-008 - Recent activity/audit preview - Web 1440",
+   "w": 2944,
+   "x": 0,
+   "y": 3780
   },
   "A-009.dc.html": {
-   "x": 3024,
-   "y": 3780,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-009 - Dashboard empty/new launch - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 3024,
+   "y": 3780
   },
   "A-010.dc.html": {
-   "x": 0,
-   "y": 5180,
-   "w": 2944,
    "h": 940,
-   "title": "A-010 - Region list - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-010 - Region list - Web 1440",
+   "w": 2944,
+   "x": 0,
+   "y": 5180
   },
   "A-011.dc.html": {
-   "x": 3024,
-   "y": 5180,
-   "w": 1440,
    "h": 940,
-   "title": "A-011 - Region detail drawer - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-011 - Region detail drawer - Web 1440",
+   "w": 1440,
+   "x": 3024,
+   "y": 5180
   },
   "A-012.dc.html": {
-   "x": 4544,
-   "y": 5180,
-   "w": 2944,
    "h": 940,
-   "title": "A-012 - Create city/region - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-012 - Create city/region - Web 1440",
+   "w": 2944,
+   "x": 4544,
+   "y": 5180
   },
   "A-013.dc.html": {
-   "x": 0,
-   "y": 6240,
-   "w": 4448,
    "h": 940,
-   "title": "A-013 - Polygon editor map - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-013 - Polygon editor map - Web 1440",
+   "w": 4448,
+   "x": 0,
+   "y": 6240
   },
   "A-014.dc.html": {
-   "x": 4528,
-   "y": 6240,
-   "w": 2944,
    "h": 940,
-   "title": "A-014 - Draw polygon - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-014 - Draw polygon - Web 1440",
+   "w": 2944,
+   "x": 4528,
+   "y": 6240
   },
   "A-015.dc.html": {
-   "x": 7552,
-   "y": 6240,
-   "w": 2944,
    "h": 940,
-   "title": "A-015 - Edit polygon vertices - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-015 - Edit polygon vertices - Web 1440",
+   "w": 2944,
+   "x": 7552,
+   "y": 6240
   },
   "A-016.dc.html": {
-   "x": 0,
-   "y": 7300,
-   "w": 1440,
    "h": 940,
-   "title": "A-016 - Polygon overlap blocked - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-016 - Polygon overlap blocked - Web 1440",
+   "w": 1440,
+   "x": 0,
+   "y": 7300
   },
   "A-017.dc.html": {
-   "x": 1520,
-   "y": 7300,
-   "w": 1440,
    "h": 940,
-   "title": "A-017 - Service/vehicle availability panel - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-017 - Service/vehicle availability panel - Web 1440",
+   "w": 1440,
+   "x": 1520,
+   "y": 7300
   },
   "A-018.dc.html": {
-   "x": 3040,
-   "y": 7300,
-   "w": 1440,
    "h": 940,
-   "title": "A-018 - Region lifecycle controls - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-018 - Region lifecycle controls - Web 1440",
+   "w": 1440,
+   "x": 3040,
+   "y": 7300
   },
   "A-019.dc.html": {
-   "x": 4560,
-   "y": 7300,
-   "w": 1440,
    "h": 940,
-   "title": "A-019 - Publish region config - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-019 - Publish region config - Web 1440",
+   "w": 1440,
+   "x": 4560,
+   "y": 7300
   },
   "A-020.dc.html": {
-   "x": 6080,
-   "y": 7300,
-   "w": 1440,
    "h": 940,
-   "title": "A-020 - Pause/resume region - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-020 - Pause/resume region - Web 1440",
+   "w": 1440,
+   "x": 6080,
+   "y": 7300
   },
   "A-021.dc.html": {
-   "x": 7600,
-   "y": 7300,
-   "w": 1440,
    "h": 940,
-   "title": "A-021 - Region publish conflict - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-021 - Region publish conflict - Web 1440",
+   "w": 1440,
+   "x": 7600,
+   "y": 7300
   },
   "A-022.dc.html": {
-   "x": 0,
-   "y": 8700,
-   "w": 2944,
    "h": 940,
+   "page": "admin",
    "title": "A-022 - Pricing/policy config list - Web 1440",
-   "page": "admin"
+   "w": 2944,
+   "x": 0,
+   "y": 8700
   },
   "A-023.dc.html": {
-   "x": 3024,
-   "y": 8700,
-   "w": 2944,
    "h": 940,
-   "title": "A-023 - Ride pricing guardrails form - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-023 - Ride pricing guardrails form - Web 1440",
+   "w": 2944,
+   "x": 3024,
+   "y": 8700
   },
   "A-024.dc.html": {
-   "x": 6048,
-   "y": 8700,
-   "w": 2944,
    "h": 940,
-   "title": "A-024 - Food delivery fee policy form - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-024 - Food delivery fee policy form - Web 1440",
+   "w": 2944,
+   "x": 6048,
+   "y": 8700
   },
   "A-025.dc.html": {
-   "x": 0,
-   "y": 9760,
-   "w": 2944,
    "h": 940,
-   "title": "A-025 - Matching timeout/wave policy form - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-025 - Matching timeout/wave policy form - Web 1440",
+   "w": 2944,
+   "x": 0,
+   "y": 9760
   },
   "A-026.dc.html": {
-   "x": 3024,
-   "y": 9760,
-   "w": 2944,
    "h": 940,
-   "title": "A-026 - Auto-lock/fraud threshold policy - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-026 - Auto-lock/fraud threshold policy - Web 1440",
+   "w": 2944,
+   "x": 3024,
+   "y": 9760
   },
   "A-027.dc.html": {
-   "x": 6048,
-   "y": 9760,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-027 - Policy publish confirmation - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 6048,
+   "y": 9760
   },
   "A-028.dc.html": {
-   "x": 7568,
-   "y": 9760,
-   "w": 1440,
    "h": 940,
-   "title": "A-028 - Policy audit timeline - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-028 - Policy audit timeline - Web 1440",
+   "w": 1440,
+   "x": 7568,
+   "y": 9760
   },
   "A-029.dc.html": {
-   "x": 0,
-   "y": 11160,
-   "w": 4448,
    "h": 940,
+   "page": "admin",
    "title": "A-029 - Driver list - Web 1440",
-   "page": "admin"
+   "w": 4448,
+   "x": 0,
+   "y": 11160
   },
   "A-030.dc.html": {
-   "x": 4528,
-   "y": 11160,
-   "w": 1440,
    "h": 940,
-   "title": "A-030 - Driver detail drawer - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-030 - Driver detail drawer - Web 1440",
+   "w": 1440,
+   "x": 4528,
+   "y": 11160
   },
   "A-031.dc.html": {
-   "x": 6048,
-   "y": 11160,
-   "w": 2944,
    "h": 940,
+   "page": "admin",
    "title": "A-031 - KYC/document viewer - Web 1440",
-   "page": "admin"
+   "w": 2944,
+   "x": 6048,
+   "y": 11160
   },
   "A-032.dc.html": {
-   "x": 0,
-   "y": 12220,
-   "w": 2944,
    "h": 940,
+   "page": "admin",
    "title": "A-032 - Driver approval/rejection - Web 1440",
-   "page": "admin"
+   "w": 2944,
+   "x": 0,
+   "y": 12220
   },
   "A-033.dc.html": {
-   "x": 3024,
-   "y": 12220,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-033 - Platform fee proof review - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 3024,
+   "y": 12220
   },
   "A-034.dc.html": {
-   "x": 4544,
-   "y": 12220,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-034 - Driver service eligibility editor - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 4544,
+   "y": 12220
   },
   "A-035.dc.html": {
-   "x": 0,
-   "y": 13620,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-035 - Manual lock driver - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 0,
+   "y": 13620
   },
   "A-036.dc.html": {
-   "x": 1520,
-   "y": 13620,
-   "w": 1440,
    "h": 940,
-   "title": "A-036 - Auto-lock review queue - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-036 - Auto-lock review queue - Web 1440",
+   "w": 1440,
+   "x": 1520,
+   "y": 13620
   },
   "A-037.dc.html": {
-   "x": 3040,
-   "y": 13620,
-   "w": 1440,
    "h": 940,
-   "title": "A-037 - Driver appeal detail - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-037 - Driver appeal detail - Web 1440",
+   "w": 1440,
+   "x": 3040,
+   "y": 13620
   },
   "A-038.dc.html": {
-   "x": 4560,
-   "y": 13620,
-   "w": 2944,
    "h": 940,
-   "title": "A-038 - Unlock driver - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-038 - Unlock driver - Web 1440",
+   "w": 2944,
+   "x": 4560,
+   "y": 13620
   },
   "A-039.dc.html": {
-   "x": 7584,
-   "y": 13620,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-039 - Driver audit timeline - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 7584,
+   "y": 13620
   },
   "A-040.dc.html": {
-   "x": 0,
-   "y": 15020,
-   "w": 4448,
    "h": 940,
-   "title": "A-040 - Food brand list - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-040 - Food brand list - Web 1440",
+   "w": 4448,
+   "x": 0,
+   "y": 15020
   },
   "A-041.dc.html": {
-   "x": 4528,
-   "y": 15020,
-   "w": 2944,
    "h": 940,
-   "title": "A-041 - Brand detail/editor - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-041 - Brand detail/editor - Web 1440",
+   "w": 2944,
+   "x": 4528,
+   "y": 15020
   },
   "A-042.dc.html": {
-   "x": 7552,
-   "y": 15020,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-042 - Outlet list - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 7552,
+   "y": 15020
   },
   "A-043.dc.html": {
-   "x": 9072,
-   "y": 15020,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-043 - Outlet detail/editor - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 9072,
+   "y": 15020
   },
   "A-044.dc.html": {
-   "x": 0,
-   "y": 16080,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-044 - Menu item list - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 0,
+   "y": 16080
   },
   "A-045.dc.html": {
-   "x": 1520,
-   "y": 16080,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-045 - Menu item editor - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 1520,
+   "y": 16080
   },
   "A-046.dc.html": {
-   "x": 3040,
-   "y": 16080,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-046 - Outlet override editor - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 3040,
+   "y": 16080
   },
   "A-047.dc.html": {
-   "x": 4560,
-   "y": 16080,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-047 - Catalog conflict review - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 4560,
+   "y": 16080
   },
   "A-048.dc.html": {
-   "x": 6080,
-   "y": 16080,
-   "w": 1440,
    "h": 940,
-   "title": "A-048 - Import/upload catalog placeholder - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-048 - Import/upload catalog placeholder - Web 1440",
+   "w": 1440,
+   "x": 6080,
+   "y": 16080
   },
   "A-049.dc.html": {
-   "x": 7600,
-   "y": 16080,
-   "w": 1440,
    "h": 940,
-   "title": "A-049 - Publish catalog changes - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-049 - Publish catalog changes - Web 1440",
+   "w": 1440,
+   "x": 7600,
+   "y": 16080
   },
   "A-050.dc.html": {
-   "x": 0,
-   "y": 17480,
-   "w": 2944,
    "h": 940,
+   "page": "admin",
    "title": "A-050 - Complaint/case queue - Web 1440",
-   "page": "admin"
+   "w": 2944,
+   "x": 0,
+   "y": 17480
   },
   "A-051.dc.html": {
-   "x": 3024,
-   "y": 17480,
-   "w": 1440,
    "h": 940,
-   "title": "A-051 - Case detail - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-051 - Case detail - Web 1440",
+   "w": 1440,
+   "x": 3024,
+   "y": 17480
   },
   "A-052.dc.html": {
-   "x": 4544,
-   "y": 17480,
-   "w": 1440,
    "h": 940,
-   "title": "A-052 - Evidence viewer - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-052 - Evidence viewer - Web 1440",
+   "w": 1440,
+   "x": 4544,
+   "y": 17480
   },
   "A-053.dc.html": {
-   "x": 6064,
-   "y": 17480,
-   "w": 1440,
    "h": 940,
-   "title": "A-053 - Payment proof dispute review - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-053 - Payment proof dispute review - Web 1440",
+   "w": 1440,
+   "x": 6064,
+   "y": 17480
   },
   "A-054.dc.html": {
-   "x": 7584,
-   "y": 17480,
-   "w": 1440,
    "h": 940,
-   "title": "A-054 - Request user response - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-054 - Request user response - Web 1440",
+   "w": 1440,
+   "x": 7584,
+   "y": 17480
   },
   "A-055.dc.html": {
-   "x": 9104,
-   "y": 17480,
-   "w": 1440,
    "h": 940,
-   "title": "A-055 - Fraud escalation - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-055 - Fraud escalation - Web 1440",
+   "w": 1440,
+   "x": 9104,
+   "y": 17480
   },
   "A-056.dc.html": {
-   "x": 0,
-   "y": 18540,
-   "w": 2944,
    "h": 940,
-   "title": "A-056 - Case decision form - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-056 - Case decision form - Web 1440",
+   "w": 2944,
+   "x": 0,
+   "y": 18540
   },
   "A-057.dc.html": {
-   "x": 3024,
-   "y": 18540,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-057 - Appeal review - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 3024,
+   "y": 18540
   },
   "A-058.dc.html": {
-   "x": 4544,
-   "y": 18540,
-   "w": 1440,
    "h": 940,
-   "title": "A-058 - Case audit timeline - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-058 - Case audit timeline - Web 1440",
+   "w": 1440,
+   "x": 4544,
+   "y": 18540
   },
   "A-059.dc.html": {
-   "x": 6064,
-   "y": 18540,
-   "w": 1440,
    "h": 940,
-   "title": "A-059 - Case finalized summary - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-059 - Case finalized summary - Web 1440",
+   "w": 1440,
+   "x": 6064,
+   "y": 18540
   },
   "A-060.dc.html": {
-   "x": 0,
-   "y": 19940,
-   "w": 2944,
    "h": 940,
-   "title": "A-060 - Media/evidence signed URL expired - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-060 - Media/evidence signed URL expired - Web 1440",
+   "w": 2944,
+   "x": 0,
+   "y": 19940
   },
   "A-061.dc.html": {
-   "x": 3024,
-   "y": 19940,
-   "w": 4448,
    "h": 940,
+   "page": "admin",
    "title": "A-061 - Audit log search - Web 1440",
-   "page": "admin"
+   "w": 4448,
+   "x": 3024,
+   "y": 19940
   },
   "A-062.dc.html": {
-   "x": 7552,
-   "y": 19940,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-062 - Admin user / RBAC list - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 7552,
+   "y": 19940
   },
   "A-063.dc.html": {
-   "x": 9072,
-   "y": 19940,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-063 - Admin user detail / role assignment - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 9072,
+   "y": 19940
   },
   "A-064.dc.html": {
-   "x": 0,
-   "y": 21000,
-   "w": 2944,
    "h": 940,
-   "title": "A-064 - Sensitive action reason dialog - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-064 - Sensitive action reason dialog - Web 1440",
+   "w": 2944,
+   "x": 0,
+   "y": 21000
   },
   "A-065.dc.html": {
-   "x": 3024,
-   "y": 21000,
-   "w": 1440,
    "h": 940,
-   "title": "A-065 - Config version diff - Web 1440",
+   "is_interactive": true,
    "page": "admin",
-   "is_interactive": true
+   "title": "A-065 - Config version diff - Web 1440",
+   "w": 1440,
+   "x": 3024,
+   "y": 21000
   },
   "A-066.dc.html": {
-   "x": 0,
-   "y": 22400,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-066 - Basic ops dashboard drilldown - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 0,
+   "y": 22400
   },
   "A-067.dc.html": {
-   "x": 0,
-   "y": 23800,
-   "w": 2944,
    "h": 940,
+   "page": "admin",
    "title": "A-067 - System health / queue status - Web 1440",
-   "page": "admin"
+   "w": 2944,
+   "x": 0,
+   "y": 23800
   },
   "A-068.dc.html": {
-   "x": 3024,
-   "y": 23800,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-068 - Admin settings - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 3024,
+   "y": 23800
   },
   "A-069.dc.html": {
-   "x": 4544,
-   "y": 23800,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-069 - Empty/error/loading template - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 4544,
+   "y": 23800
   },
   "A-070.dc.html": {
-   "x": 0,
-   "y": 25200,
-   "w": 2944,
    "h": 940,
+   "page": "admin",
    "title": "A-070 - Finance proof queue - Web 1440",
-   "page": "admin"
+   "w": 2944,
+   "x": 0,
+   "y": 25200
   },
   "A-071.dc.html": {
-   "x": 3024,
-   "y": 25200,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-071 - Finance proof detail - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 3024,
+   "y": 25200
   },
   "A-072.dc.html": {
-   "x": 4544,
-   "y": 25200,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-072 - Customer management light - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 4544,
+   "y": 25200
   },
   "A-073.dc.html": {
-   "x": 6064,
-   "y": 25200,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-073 - Customer detail / history - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 6064,
+   "y": 25200
   },
   "A-074.dc.html": {
-   "x": 0,
-   "y": 26600,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-074 - Notification template/config baseline - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 0,
+   "y": 26600
   },
   "A-075.dc.html": {
-   "x": 0,
-   "y": 28000,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-075 - Data/privacy request queue - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 0,
+   "y": 28000
   },
   "A-076.dc.html": {
-   "x": 1520,
-   "y": 28000,
-   "w": 1440,
    "h": 940,
+   "page": "admin",
    "title": "A-076 - Data/privacy request detail - Web 1440",
-   "page": "admin"
+   "w": 1440,
+   "x": 1520,
+   "y": 28000
   },
   "L-001.dc.html": {
    "x": 0,
    "y": 260,
    "w": 1894,
-   "h": 940,
+   "h": 1140,
    "title": "L-001 - Landing home hero - Web",
    "page": "landing"
   },
   "L-002.dc.html": {
-   "x": 1974,
-   "y": 260,
+   "x": 0,
+   "y": 1520,
    "w": 1440,
-   "h": 680,
+   "h": 1040,
    "title": "L-002 - Customer value section - Web",
    "page": "landing"
   },
   "L-003.dc.html": {
-   "x": 3494,
-   "y": 260,
+   "x": 0,
+   "y": 2680,
    "w": 1440,
-   "h": 860,
+   "h": 1080,
    "title": "L-003 - Driver acquisition section - Web",
    "page": "landing"
   },
   "L-004.dc.html": {
-   "x": 5014,
-   "y": 260,
+   "x": 0,
+   "y": 3880,
    "w": 1440,
-   "h": 680,
+   "h": 1140,
    "title": "L-004 - How Onway works - Web",
    "page": "landing"
   },
   "L-005.dc.html": {
-   "x": 6534,
-   "y": 260,
+   "x": 0,
+   "y": 5140,
    "w": 1440,
-   "h": 720,
+   "h": 1140,
    "title": "L-005 - Safety / dispute / connection model - Web",
    "page": "landing"
   },
   "L-006.dc.html": {
-   "x": 8054,
-   "y": 260,
+   "x": 0,
+   "y": 6400,
    "w": 2944,
-   "h": 480,
+   "h": 600,
    "title": "L-006 - App download / waitlist CTA - Web",
    "page": "landing"
   },
   "L-007.dc.html": {
    "x": 0,
-   "y": 1320,
+   "y": 7120,
    "w": 2944,
-   "h": 860,
+   "h": 800,
    "title": "L-007 - FAQ - Web",
    "page": "landing"
   },
   "L-008.dc.html": {
-   "x": 3024,
-   "y": 1320,
+   "x": 0,
+   "y": 8040,
    "w": 1440,
-   "h": 400,
+   "h": 600,
    "title": "L-008 - Footer / legal links - Web",
    "page": "landing"
   },
   "L-009.dc.html": {
-   "x": 4544,
-   "y": 1320,
+   "x": 0,
+   "y": 9100,
    "w": 1440,
-   "h": 1240,
+   "h": 1320,
    "title": "L-009 - Terms page - Web",
    "page": "landing"
   },
   "L-010.dc.html": {
-   "x": 6064,
-   "y": 1320,
+   "x": 1520,
+   "y": 9100,
    "w": 1440,
-   "h": 1240,
+   "h": 1320,
    "title": "L-010 - Privacy page - Web",
    "page": "landing"
   },
   "L-011.dc.html": {
-   "x": 7584,
-   "y": 1320,
+   "x": 3040,
+   "y": 9100,
    "w": 1440,
-   "h": 1320,
+   "h": 1440,
    "title": "L-011 - Contact/support page - Web",
    "page": "landing"
+  },
+  "Main.dc.html": {
+   "h": 1160,
+   "is_interactive": true,
+   "page": "overview",
+   "title": "Tổng quan · UI Workflow P0",
+   "w": 1760,
+   "x": 0,
+   "y": 0
+  }
+ },
+ "createdOnFiles": {
+  "at": "2026-09-24T08:41:32Z",
+  "v": 1
+ },
+ "designSystems": [
+  {
+   "artifact": "https://claude.ai/code/artifact/3a7f770f-a60c-4755-85f8-ced071f0c577",
+   "copiedAt": "2026-09-24T08:41:32Z",
+   "namespace": "onway",
+   "title": "Onway",
+   "version": "1790235852-eb26"
+  }
+ ],
+ "launch": {
+  "page": "overview",
+  "view": "canvas"
+ },
+ "notes": {
+  "Ag0": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Đăng nhập & khung",
+   "w": 240,
+   "x": 0,
+   "y": 0
+  },
+  "Ag1": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Tổng quan",
+   "w": 240,
+   "x": 0,
+   "y": 2460
+  },
+  "Ag10": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Bằng chứng, audit & hệ thống",
+   "w": 240,
+   "x": 0,
+   "y": 23540
+  },
+  "Ag11": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Tài chính & khách hàng",
+   "w": 240,
+   "x": 0,
+   "y": 24940
+  },
+  "Ag12": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Bằng chứng, audit & hệ thống",
+   "w": 240,
+   "x": 0,
+   "y": 26340
+  },
+  "Ag13": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Tài chính & khách hàng",
+   "w": 240,
+   "x": 0,
+   "y": 27740
+  },
+  "Ag2": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Khu vực & polygon",
+   "w": 240,
+   "x": 0,
+   "y": 4920
+  },
+  "Ag3": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Giá & chính sách",
+   "w": 240,
+   "x": 0,
+   "y": 8440
+  },
+  "Ag4": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Tài xế · Duyệt & quản lý",
+   "w": 240,
+   "x": 0,
+   "y": 10900
+  },
+  "Ag5": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Tài xế · Khoá & kháng nghị",
+   "w": 240,
+   "x": 0,
+   "y": 13360
+  },
+  "Ag6": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Danh mục món",
+   "w": 240,
+   "x": 0,
+   "y": 14760
+  },
+  "Ag7": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Khiếu nại & gian lận",
+   "w": 240,
+   "x": 0,
+   "y": 17220
+  },
+  "Ag8": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Bằng chứng, audit & hệ thống",
+   "w": 240,
+   "x": 0,
+   "y": 19680
+  },
+  "Ag9": {
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "admin",
+   "text": "Tổng quan",
+   "w": 240,
+   "x": 0,
+   "y": 22140
+  },
+  "Lg0": {
+   "x": 0,
+   "y": 0,
+   "text": "Landing · Trang chủ (xếp dọc như trang web)",
+   "kind": "title1",
+   "page": "landing",
+   "maxW": 6000
+  },
+  "Lg1": {
+   "x": 0,
+   "y": 8840,
+   "text": "Landing · Trang phụ",
+   "kind": "title1",
+   "page": "landing",
+   "maxW": 6000
   }
  },
  "order": [
@@ -872,135 +1011,19 @@
   "L-010.dc.html",
   "L-011.dc.html"
  ],
- "notes": {
-  "Ag0": {
-   "x": 0,
-   "y": 0,
-   "text": "Đăng nhập & khung",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag1": {
-   "x": 0,
-   "y": 2460,
-   "text": "Tổng quan",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag2": {
-   "x": 0,
-   "y": 4920,
-   "text": "Khu vực & polygon",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag3": {
-   "x": 0,
-   "y": 8440,
-   "text": "Giá & chính sách",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag4": {
-   "x": 0,
-   "y": 10900,
-   "text": "Tài xế · Duyệt & quản lý",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag5": {
-   "x": 0,
-   "y": 13360,
-   "text": "Tài xế · Khoá & kháng nghị",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag6": {
-   "x": 0,
-   "y": 14760,
-   "text": "Danh mục món",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag7": {
-   "x": 0,
-   "y": 17220,
-   "text": "Khiếu nại & gian lận",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag8": {
-   "x": 0,
-   "y": 19680,
-   "text": "Bằng chứng, audit & hệ thống",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag9": {
-   "x": 0,
-   "y": 22140,
-   "text": "Tổng quan",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag10": {
-   "x": 0,
-   "y": 23540,
-   "text": "Bằng chứng, audit & hệ thống",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag11": {
-   "x": 0,
-   "y": 24940,
-   "text": "Tài chính & khách hàng",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag12": {
-   "x": 0,
-   "y": 26340,
-   "text": "Bằng chứng, audit & hệ thống",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Ag13": {
-   "x": 0,
-   "y": 27740,
-   "text": "Tài chính & khách hàng",
-   "kind": "title1",
-   "page": "admin",
-   "maxW": 6000
-  },
-  "Lg0": {
-   "x": 0,
-   "y": 0,
-   "text": "Landing",
-   "kind": "title1",
-   "page": "landing",
-   "maxW": 6000
-  }
- },
- "designSystems": [
+ "pages": [
   {
-   "title": "Onway",
-   "namespace": "onway",
-   "artifact": "https://claude.ai/code/artifact/3a7f770f-a60c-4755-85f8-ced071f0c577",
-   "version": "1790235852-eb26",
-   "copiedAt": "2026-09-24T08:41:32Z"
+   "id": "overview",
+   "name": "Tổng quan"
+  },
+  {
+   "id": "admin",
+   "name": "Admin Portal"
+  },
+  {
+   "id": "landing",
+   "name": "Landing Web"
   }
- ]
+ ],
+ "title": "Onway UI Workflow — Admin & Landing"
 }

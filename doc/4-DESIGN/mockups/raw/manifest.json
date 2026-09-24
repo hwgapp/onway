@@ -2409,7 +2409,7 @@
  {
   "id": "L-001",
   "name": "Landing home hero",
-  "group": "Landing",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
   "platform": "Web",
   "states": [
    "Desktop",
@@ -2421,7 +2421,7 @@
  {
   "id": "L-002",
   "name": "Customer value section",
-  "group": "Landing",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
   "platform": "Web",
   "states": [
    "Đi xe + Đặt món"
@@ -2432,7 +2432,7 @@
  {
   "id": "L-003",
   "name": "Driver acquisition section",
-  "group": "Landing",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
   "platform": "Web",
   "states": [
    "0% hoa hồng + gói ra mắt"
@@ -2443,7 +2443,7 @@
  {
   "id": "L-004",
   "name": "How Onway works",
-  "group": "Landing",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
   "platform": "Web",
   "states": [
    "Chuyển khoản trực tiếp + chứng từ"
@@ -2454,7 +2454,7 @@
  {
   "id": "L-005",
   "name": "Safety / dispute / connection model",
-  "group": "Landing",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
   "platform": "Web",
   "states": [
    "Mô hình kết nối, an toàn"
@@ -2465,7 +2465,7 @@
  {
   "id": "L-006",
   "name": "App download / waitlist CTA",
-  "group": "Landing",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
   "platform": "Web",
   "states": [
    "Có link tải",
@@ -2477,7 +2477,7 @@
  {
   "id": "L-007",
   "name": "FAQ",
-  "group": "Landing",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
   "platform": "Web",
   "states": [
    "Khách hàng",
@@ -2489,7 +2489,7 @@
  {
   "id": "L-008",
   "name": "Footer / legal links",
-  "group": "Landing",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
   "platform": "Web",
   "states": [
    "Quyền riêng tư, điều khoản, liên hệ"
@@ -2500,7 +2500,7 @@
  {
   "id": "L-009",
   "name": "Terms page",
-  "group": "Landing",
+  "group": "Landing · Trang phụ",
   "platform": "Web",
   "states": [
    "Khung nội dung pháp lý"
@@ -2511,7 +2511,7 @@
  {
   "id": "L-010",
   "name": "Privacy page",
-  "group": "Landing",
+  "group": "Landing · Trang phụ",
   "platform": "Web",
   "states": [
    "Khung nội dung quyền riêng tư"
@@ -2522,7 +2522,7 @@
  {
   "id": "L-011",
   "name": "Contact/support page",
-  "group": "Landing",
+  "group": "Landing · Trang phụ",
   "platform": "Web",
   "states": [
    "Khách, tài xế, đối tác"

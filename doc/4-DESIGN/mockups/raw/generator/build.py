@@ -117,6 +117,7 @@ def main(keep="CDAL", outdir=None, title="Onway UI Workflow", other_url=None):
             x = 0
             row_h = 0
             first_row = True
+            vertical = "xếp dọc" in gname
             for f in fs:
                 states = f["fn"]()
                 root, w, hh = build_board(states)
@@ -124,7 +125,14 @@ def main(keep="CDAL", outdir=None, title="Onway UI Workflow", other_url=None):
                 plat = PLATFORM[p]
                 btitle = f"{f['id']} - {f['name']} - {plat}"
                 files[fn] = dc_file(f"{f['id']} {f['name']}", root, w, hh)
-                if x > 0 and x + w > maxw:
+                if vertical and x == 0 and order[-1] != "Main.dc.html" and boards[order[-1]].get("page") == PAGE[p] and boards[order[-1]]["y"] >= title_y + 260:
+                    pass
+                if vertical:
+                    x = 0
+                    if row_h:
+                        y += row_h + 120
+                    row_h = 0
+                elif x > 0 and x + w > maxw:
                     x = 0
                     y += row_h + 120
                     row_h = 0
@@ -135,8 +143,8 @@ def main(keep="CDAL", outdir=None, title="Onway UI Workflow", other_url=None):
                 boards[fn] = b
                 order.append(fn)
                 manifest.append(dict(id=f["id"], name=f["name"], group=gname, platform=plat, states=[s[0] for s in states], file=fn, page=PAGE[p]))
-                x += w + 80
-                row_h = max(row_h, hh)
+                x = 0 if vertical else x + w + 80
+                row_h = hh if vertical else max(row_h, hh)
             notes[f"{p}g{gi}"] = {"x": 0, "y": title_y, "text": gname, "kind": "title1", "page": PAGE[p], "maxW": 6000}
             y += row_h + 200
     now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")

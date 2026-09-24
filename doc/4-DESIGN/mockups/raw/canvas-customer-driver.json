@@ -1,8 +1,8 @@
 {
  "v": 3,
  "createdOnFiles": {
-  "at": "2026-09-24T08:24:55Z",
-  "v": 1
+  "v": 1,
+  "at": "2026-09-24T08:54:14Z"
  },
  "title": "Onway UI Workflow — Customer & Driver",
  "launch": {
@@ -1562,11 +1562,11 @@
  },
  "designSystems": [
   {
-   "artifact": "https://claude.ai/code/artifact/3a7f770f-a60c-4755-85f8-ced071f0c577",
-   "copiedAt": "2026-09-24T08:24:55Z",
-   "namespace": "onway",
    "title": "Onway",
-   "version": "1790235852-eb26"
+   "namespace": "onway",
+   "artifact": "https://claude.ai/code/artifact/3a7f770f-a60c-4755-85f8-ced071f0c577",
+   "version": "1790235852-eb26",
+   "copiedAt": "2026-09-24T08:54:14Z"
   }
  ]
 }
