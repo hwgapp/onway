@@ -1,0 +1,2533 @@
+[
+ {
+  "id": "C-000",
+  "name": "Splash / launch",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Đang tải",
+   "Bắt buộc cập nhật"
+  ],
+  "file": "C-000.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-001",
+  "name": "Phone login",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Lỗi định dạng số",
+   "Giới hạn gửi mã"
+  ],
+  "file": "C-001.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-002",
+  "name": "OTP verification",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Sai mã OTP",
+   "Chờ gửi lại mã"
+  ],
+  "file": "C-002.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-003",
+  "name": "Basic profile setup",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Lỗi nhập liệu"
+  ],
+  "file": "C-003.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-004",
+  "name": "Location permission",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Giải thích quyền",
+   "Đã từ chối",
+   "Vị trí gần đúng"
+  ],
+  "file": "C-004.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-005",
+  "name": "Notification permission",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Giải thích quyền",
+   "Đã từ chối"
+  ],
+  "file": "C-005.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-006",
+  "name": "Home / service selector",
+  "group": "Trang chủ & tài khoản",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Đang tải",
+   "Ngoài khu vực",
+   "Mất mạng"
+  ],
+  "file": "C-006.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-007",
+  "name": "Home search/service empty",
+  "group": "Trang chủ & tài khoản",
+  "platform": "iPhone",
+  "states": [
+   "Không có khu vực hoạt động",
+   "Dịch vụ tạm dừng"
+  ],
+  "file": "C-007.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-008",
+  "name": "Notification center",
+  "group": "Trang chủ & tài khoản",
+  "platform": "iPhone",
+  "states": [
+   "Có chưa đọc",
+   "Trống"
+  ],
+  "file": "C-008.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-009",
+  "name": "Account / settings",
+  "group": "Trang chủ & tài khoản",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định"
+  ],
+  "file": "C-009.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-010",
+  "name": "Profile and phone visibility settings",
+  "group": "Trang chủ & tài khoản",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Lỗi nhập liệu"
+  ],
+  "file": "C-010.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-011",
+  "name": "Privacy / consent settings",
+  "group": "Trang chủ & tài khoản",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định"
+  ],
+  "file": "C-011.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-012",
+  "name": "Ride request map",
+  "group": "Đi xe · Đặt chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Chưa cấp quyền vị trí",
+   "Ngoài khu vực"
+  ],
+  "file": "C-012.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-013",
+  "name": "Pickup address search",
+  "group": "Đi xe · Đặt chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Kết quả tìm kiếm",
+   "Đang tìm",
+   "Không có kết quả",
+   "Lỗi"
+  ],
+  "file": "C-013.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-014",
+  "name": "Dropoff address search",
+  "group": "Đi xe · Đặt chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Kết quả tìm kiếm",
+   "Đang tìm",
+   "Không có kết quả",
+   "Điểm đến ngoài vùng"
+  ],
+  "file": "C-014.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-015",
+  "name": "Map pin adjust pickup/dropoff",
+  "group": "Đi xe · Đặt chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "GPS yếu",
+   "Không lấy được địa chỉ"
+  ],
+  "file": "C-015.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-016",
+  "name": "Vehicle type selection",
+  "group": "Đi xe · Đặt chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Xe máy",
+   "Ô tô",
+   "Loại xe không khả dụng"
+  ],
+  "file": "C-016.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-017",
+  "name": "Ride price review",
+  "group": "Đi xe · Đặt chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Đang tính lại tuyến",
+   "Không tính được giá"
+  ],
+  "file": "C-017.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-018",
+  "name": "Destination outside polygon warning",
+  "group": "Đi xe · Đặt chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Cảnh báo điểm đến ngoài vùng"
+  ],
+  "file": "C-018.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-019",
+  "name": "Ride matching",
+  "group": "Đi xe · Ghép tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Đang ghép",
+   "Sắp hết giờ"
+  ],
+  "file": "C-019.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-020",
+  "name": "Driver rejected / searching next",
+  "group": "Đi xe · Ghép tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Tìm lượt tiếp theo"
+  ],
+  "file": "C-020.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-021",
+  "name": "No driver found",
+  "group": "Đi xe · Ghép tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Không có tài xế"
+  ],
+  "file": "C-021.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-022",
+  "name": "Ride cancel before match",
+  "group": "Đi xe · Ghép tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Xác nhận huỷ"
+  ],
+  "file": "C-022.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-023",
+  "name": "Matched ride / driver assigned",
+  "group": "Đi xe · Thanh toán trực tiếp",
+  "platform": "iPhone",
+  "states": [
+   "Đã có tài xế"
+  ],
+  "file": "C-023.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-024",
+  "name": "Ride payment instructions",
+  "group": "Đi xe · Thanh toán trực tiếp",
+  "platform": "iPhone",
+  "states": [
+   "Thông tin chuyển khoản"
+  ],
+  "file": "C-024.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-025",
+  "name": "Ride proof upload",
+  "group": "Đi xe · Thanh toán trực tiếp",
+  "platform": "iPhone",
+  "states": [
+   "Chưa có ảnh",
+   "Đang tải lên",
+   "Tải lên thất bại",
+   "Đã gửi"
+  ],
+  "file": "C-025.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-026",
+  "name": "Ride proof rejected / supplement needed",
+  "group": "Đi xe · Thanh toán trực tiếp",
+  "platform": "iPhone",
+  "states": [
+   "Cần bổ sung"
+  ],
+  "file": "C-026.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-027",
+  "name": "Ride payment disputed",
+  "group": "Đi xe · Thanh toán trực tiếp",
+  "platform": "iPhone",
+  "states": [
+   "Đang tranh chấp"
+  ],
+  "file": "C-027.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-028",
+  "name": "Active ride - driver en route",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Tài xế đang đến",
+   "Mất kết nối"
+  ],
+  "file": "C-028.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-029",
+  "name": "Active ride - driver arrived",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Chờ đón",
+   "Chưa thanh toán"
+  ],
+  "file": "C-029.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-030",
+  "name": "Active ride - in trip",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Đang trong chuyến"
+  ],
+  "file": "C-030.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-031",
+  "name": "Ride completed summary",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Hoàn thành"
+  ],
+  "file": "C-031.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-032",
+  "name": "Ride issue/report entry",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Chọn loại sự cố"
+  ],
+  "file": "C-032.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-033",
+  "name": "Food browse home",
+  "group": "Đặt món · Chọn món",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Đang tải",
+   "Ngoài khu vực"
+  ],
+  "file": "C-033.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-034",
+  "name": "Food outlet/brand search",
+  "group": "Đặt món · Chọn món",
+  "platform": "iPhone",
+  "states": [
+   "Kết quả",
+   "Không có kết quả",
+   "Lỗi"
+  ],
+  "file": "C-034.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-035",
+  "name": "Outlet menu",
+  "group": "Đặt món · Chọn món",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Quán đóng cửa",
+   "Món hết",
+   "Cảnh báo giá cũ"
+  ],
+  "file": "C-035.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-036",
+  "name": "Menu item detail",
+  "group": "Đặt món · Chọn món",
+  "platform": "iPhone",
+  "states": [
+   "Chọn số lượng",
+   "Món hết",
+   "Ghi chú giá"
+  ],
+  "file": "C-036.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-037",
+  "name": "Food cart",
+  "group": "Đặt món · Giỏ hàng & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Món hết",
+   "Giá thay đổi"
+  ],
+  "file": "C-037.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-038",
+  "name": "Delivery address selection",
+  "group": "Đặt món · Giỏ hàng & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Tìm địa chỉ",
+   "Ghim trên bản đồ",
+   "Ngoài khu vực"
+  ],
+  "file": "C-038.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-039",
+  "name": "Food checkout price review",
+  "group": "Đặt món · Giỏ hàng & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định"
+  ],
+  "file": "C-039.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-040",
+  "name": "Food matching",
+  "group": "Đặt món · Ghép tài xế & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Đang ghép",
+   "Sắp hết giờ"
+  ],
+  "file": "C-040.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-041",
+  "name": "No Food driver found",
+  "group": "Đặt món · Ghép tài xế & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Không có tài xế"
+  ],
+  "file": "C-041.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-042",
+  "name": "Food driver matched / payment instructions",
+  "group": "Đặt món · Ghép tài xế & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "QR & thông tin chuyển khoản"
+  ],
+  "file": "C-042.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-043",
+  "name": "Food proof upload",
+  "group": "Đặt món · Ghép tài xế & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Chưa có ảnh",
+   "Đang tải lên",
+   "Tải lên thất bại",
+   "Đã gửi"
+  ],
+  "file": "C-043.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-044",
+  "name": "Food proof rejected / disputed",
+  "group": "Đặt món · Ghép tài xế & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Cần bổ sung",
+   "Đang tranh chấp"
+  ],
+  "file": "C-044.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-045",
+  "name": "Active Food - driver going to outlet",
+  "group": "Đặt món · Theo dõi đơn",
+  "platform": "iPhone",
+  "states": [
+   "Đang đến quán"
+  ],
+  "file": "C-045.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-046",
+  "name": "Active Food - driver at outlet",
+  "group": "Đặt món · Theo dõi đơn",
+  "platform": "iPhone",
+  "states": [
+   "Tại quán"
+  ],
+  "file": "C-046.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-047",
+  "name": "Food change proposal",
+  "group": "Đặt món · Thay đổi tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Chờ trả lời",
+   "Đã đồng ý",
+   "Đã từ chối"
+  ],
+  "file": "C-047.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-048",
+  "name": "Supplemental payment required",
+  "group": "Đặt món · Thay đổi tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Chuyển tiền bổ sung"
+  ],
+  "file": "C-048.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-049",
+  "name": "Food proposal timeout",
+  "group": "Đặt món · Thay đổi tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Hết thời gian trả lời"
+  ],
+  "file": "C-049.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-050",
+  "name": "Active Food - delivering",
+  "group": "Đặt món · Theo dõi đơn",
+  "platform": "iPhone",
+  "states": [
+   "Đang giao"
+  ],
+  "file": "C-050.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-051",
+  "name": "Food delivered summary",
+  "group": "Đặt món · Theo dõi đơn",
+  "platform": "iPhone",
+  "states": [
+   "Đã giao"
+  ],
+  "file": "C-051.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-052",
+  "name": "Rating after Ride/Food",
+  "group": "Đánh giá & khiếu nại",
+  "platform": "iPhone",
+  "states": [
+   "5 sao + thẻ nhanh"
+  ],
+  "file": "C-052.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-053",
+  "name": "Complaint/report form",
+  "group": "Đánh giá & khiếu nại",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Lỗi nhập liệu"
+  ],
+  "file": "C-053.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-054",
+  "name": "Complaint submitted",
+  "group": "Đánh giá & khiếu nại",
+  "platform": "iPhone",
+  "states": [
+   "Đã gửi"
+  ],
+  "file": "C-054.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-055",
+  "name": "Chat room",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Văn bản, ảnh, đã xem"
+  ],
+  "file": "C-055.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-056",
+  "name": "Chat image upload failed",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Ảnh gửi lỗi"
+  ],
+  "file": "C-056.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-057",
+  "name": "Chat offline / reconnecting",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Đang kết nối lại"
+  ],
+  "file": "C-057.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-058",
+  "name": "Chat closed / retention expired",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Chỉ đọc"
+  ],
+  "file": "C-058.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-059",
+  "name": "Activity / Ride & Food history",
+  "group": "Lịch sử & khiếu nại",
+  "platform": "iPhone",
+  "states": [
+   "Danh sách",
+   "Lọc Đi xe",
+   "Đang tải",
+   "Trống"
+  ],
+  "file": "C-059.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-060",
+  "name": "Ride history detail",
+  "group": "Lịch sử & khiếu nại",
+  "platform": "iPhone",
+  "states": [
+   "Hoàn thành",
+   "Đã huỷ",
+   "Tranh chấp"
+  ],
+  "file": "C-060.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-061",
+  "name": "Food order history detail",
+  "group": "Lịch sử & khiếu nại",
+  "platform": "iPhone",
+  "states": [
+   "Đã giao",
+   "Đã huỷ",
+   "Tranh chấp"
+  ],
+  "file": "C-061.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-062",
+  "name": "Case / complaint list",
+  "group": "Lịch sử & khiếu nại",
+  "platform": "iPhone",
+  "states": [
+   "Danh sách",
+   "Trống"
+  ],
+  "file": "C-062.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-063",
+  "name": "Case / complaint detail",
+  "group": "Lịch sử & khiếu nại",
+  "platform": "iPhone",
+  "states": [
+   "Đang xem xét",
+   "Đã kết luận"
+  ],
+  "file": "C-063.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-064",
+  "name": "Direct call confirmation",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Gọi tài xế / tổng đài",
+   "Không khả dụng"
+  ],
+  "file": "C-064.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-065",
+  "name": "Food customer cancel after driver ordered",
+  "group": "Đặt món · Theo dõi đơn",
+  "platform": "iPhone",
+  "states": [
+   "Cảnh báo huỷ"
+  ],
+  "file": "C-065.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-066",
+  "name": "Saved places / recent addresses",
+  "group": "Trang chủ & tài khoản",
+  "platform": "iPhone",
+  "states": [
+   "Danh sách",
+   "Sửa / xoá",
+   "Trống"
+  ],
+  "file": "C-066.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "C-067",
+  "name": "Data export/delete request",
+  "group": "Trang chủ & tài khoản",
+  "platform": "iPhone",
+  "states": [
+   "Tạo yêu cầu",
+   "Đã gửi",
+   "Bị hạn chế (pháp lý/audit)"
+  ],
+  "file": "C-067.dc.html",
+  "page": "customer"
+ },
+ {
+  "id": "D-000",
+  "name": "Splash / launch",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Đang tải",
+   "Bắt buộc cập nhật"
+  ],
+  "file": "D-000.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-001",
+  "name": "Phone login",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Lỗi định dạng số",
+   "Giới hạn gửi mã"
+  ],
+  "file": "D-001.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-002",
+  "name": "OTP verification",
+  "group": "Khởi động & đăng nhập",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Sai mã OTP",
+   "Chờ gửi lại mã"
+  ],
+  "file": "D-002.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-003",
+  "name": "Driver profile setup",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Lỗi nhập liệu"
+  ],
+  "file": "D-003.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-004",
+  "name": "Service / vehicle selection",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Xe máy",
+   "Ô tô",
+   "Cả hai",
+   "Loại xe chưa mở"
+  ],
+  "file": "D-004.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-005",
+  "name": "Document upload checklist",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Chưa đủ",
+   "Đang tải lên",
+   "Tải lên lỗi"
+  ],
+  "file": "D-005.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-006",
+  "name": "Identity document capture",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Mặt trước",
+   "Mặt sau",
+   "Chân dung",
+   "Bị từ chối"
+  ],
+  "file": "D-006.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-007",
+  "name": "Vehicle document upload",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Theo dịch vụ đã chọn",
+   "Bị từ chối"
+  ],
+  "file": "D-007.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-008",
+  "name": "Bank/QR receiving info setup",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Lỗi nhập liệu"
+  ],
+  "file": "D-008.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-009",
+  "name": "Onboarding review pending",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Chờ duyệt"
+  ],
+  "file": "D-009.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-010",
+  "name": "Onboarding rejected",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Bị từ chối"
+  ],
+  "file": "D-010.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-011",
+  "name": "Onboarding approved",
+  "group": "Đăng ký tài xế",
+  "platform": "iPhone",
+  "states": [
+   "Đã duyệt"
+  ],
+  "file": "D-011.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-012",
+  "name": "Platform fee package",
+  "group": "Phí nền tảng",
+  "platform": "iPhone",
+  "states": [
+   "Chưa thanh toán",
+   "Hết hạn",
+   "Đang hoạt động"
+  ],
+  "file": "D-012.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-013",
+  "name": "Platform fee proof upload",
+  "group": "Phí nền tảng",
+  "platform": "iPhone",
+  "states": [
+   "Chưa có ảnh",
+   "Đang tải lên",
+   "Đã gửi",
+   "Bị từ chối"
+  ],
+  "file": "D-013.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-014",
+  "name": "Platform fee active/validity",
+  "group": "Phí nền tảng",
+  "platform": "iPhone",
+  "states": [
+   "Đang hiệu lực",
+   "Sắp hết hạn",
+   "Đã hết hạn"
+  ],
+  "file": "D-014.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-015",
+  "name": "Driver online home",
+  "group": "Trực tuyến & nhận việc",
+  "platform": "iPhone",
+  "states": [
+   "Ngoại tuyến",
+   "Trực tuyến",
+   "Chưa có chuyến"
+  ],
+  "file": "D-015.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-016",
+  "name": "Service toggles / availability",
+  "group": "Trực tuyến & nhận việc",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định",
+   "Khu vực tạm dừng",
+   "Bị khoá"
+  ],
+  "file": "D-016.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-017",
+  "name": "Job list / job cards",
+  "group": "Trực tuyến & nhận việc",
+  "platform": "iPhone",
+  "states": [
+   "Danh sách",
+   "Đang tải",
+   "Trống",
+   "Lỗi"
+  ],
+  "file": "D-017.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-018",
+  "name": "Region unavailable / no service",
+  "group": "Trực tuyến & nhận việc",
+  "platform": "iPhone",
+  "states": [
+   "Ngoài vùng hoạt động",
+   "Dịch vụ tạm dừng"
+  ],
+  "file": "D-018.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-019",
+  "name": "Ride offer received",
+  "group": "Đi xe · Nhận chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Đếm ngược 12 giây",
+   "Còn 3 giây"
+  ],
+  "file": "D-019.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-020",
+  "name": "Ride offer accepted",
+  "group": "Đi xe · Nhận chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Đã nhận chuyến"
+  ],
+  "file": "D-020.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-021",
+  "name": "Ride offer rejected / timeout",
+  "group": "Đi xe · Nhận chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Đã từ chối",
+   "Hết thời gian"
+  ],
+  "file": "D-021.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-022",
+  "name": "Ride pickup navigation",
+  "group": "Đi xe · Đón khách & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Đến điểm đón"
+  ],
+  "file": "D-022.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-023",
+  "name": "Ride payment proof review",
+  "group": "Đi xe · Đón khách & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Chứng từ đã gửi"
+  ],
+  "file": "D-023.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-024",
+  "name": "Ride money not received",
+  "group": "Đi xe · Đón khách & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Báo chưa nhận tiền"
+  ],
+  "file": "D-024.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-025",
+  "name": "Ride arrived pickup",
+  "group": "Đi xe · Đón khách & thanh toán",
+  "platform": "iPhone",
+  "states": [
+   "Đến điểm đón",
+   "Đang chờ khách"
+  ],
+  "file": "D-025.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-026",
+  "name": "Ride start trip",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Bắt đầu bị khoá (chưa nhận tiền)",
+   "Sẵn sàng bắt đầu"
+  ],
+  "file": "D-026.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-027",
+  "name": "Ride in trip",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Trong chuyến"
+  ],
+  "file": "D-027.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-028",
+  "name": "Ride completed",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Hoàn thành"
+  ],
+  "file": "D-028.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-029",
+  "name": "Ride canceled / issue",
+  "group": "Đi xe · Trong chuyến",
+  "platform": "iPhone",
+  "states": [
+   "Chọn lý do"
+  ],
+  "file": "D-029.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-030",
+  "name": "Food offer received",
+  "group": "Đặt món · Nhận đơn",
+  "platform": "iPhone",
+  "states": [
+   "Đếm ngược"
+  ],
+  "file": "D-030.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-031",
+  "name": "Food accepted / go to outlet",
+  "group": "Đặt món · Nhận đơn",
+  "platform": "iPhone",
+  "states": [
+   "Đi tới quán"
+  ],
+  "file": "D-031.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-032",
+  "name": "Food payment proof review",
+  "group": "Đặt món · Nhận đơn",
+  "platform": "iPhone",
+  "states": [
+   "Kiểm tra chứng từ"
+  ],
+  "file": "D-032.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-033",
+  "name": "Food money not received",
+  "group": "Đặt món · Nhận đơn",
+  "platform": "iPhone",
+  "states": [
+   "Báo chưa nhận tiền"
+  ],
+  "file": "D-033.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-034",
+  "name": "At outlet / order items",
+  "group": "Đặt món · Tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Danh sách món"
+  ],
+  "file": "D-034.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-035",
+  "name": "Food change needed form",
+  "group": "Đặt món · Tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Giá khác"
+  ],
+  "file": "D-035.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-036",
+  "name": "Food proposal waiting customer",
+  "group": "Đặt món · Tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Chờ 5 phút"
+  ],
+  "file": "D-036.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-037",
+  "name": "Proposal accepted",
+  "group": "Đặt món · Tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Khách đồng ý"
+  ],
+  "file": "D-037.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-038",
+  "name": "Proposal rejected / timeout",
+  "group": "Đặt món · Tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Khách từ chối",
+   "Hết thời gian"
+  ],
+  "file": "D-038.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-039",
+  "name": "Supplemental payment pending",
+  "group": "Đặt món · Tại quán",
+  "platform": "iPhone",
+  "states": [
+   "Chờ tiền bổ sung"
+  ],
+  "file": "D-039.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-040",
+  "name": "Food picked up",
+  "group": "Đặt món · Giao món",
+  "platform": "iPhone",
+  "states": [
+   "Đã lấy món"
+  ],
+  "file": "D-040.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-041",
+  "name": "Food delivering",
+  "group": "Đặt món · Giao món",
+  "platform": "iPhone",
+  "states": [
+   "Đang giao"
+  ],
+  "file": "D-041.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-042",
+  "name": "Food delivered",
+  "group": "Đặt món · Giao món",
+  "platform": "iPhone",
+  "states": [
+   "Đã giao"
+  ],
+  "file": "D-042.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-043",
+  "name": "Food issue/cancel reason",
+  "group": "Đặt món · Giao món",
+  "platform": "iPhone",
+  "states": [
+   "Quán đóng cửa",
+   "Không liên lạc được khách"
+  ],
+  "file": "D-043.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-044",
+  "name": "Chat room",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Văn bản, ảnh, đã xem"
+  ],
+  "file": "D-044.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-045",
+  "name": "Chat image upload failed",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Ảnh gửi lỗi"
+  ],
+  "file": "D-045.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-046",
+  "name": "Chat offline / reconnecting",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Đang kết nối lại"
+  ],
+  "file": "D-046.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-047",
+  "name": "Driver locked notice",
+  "group": "Khoá tài khoản & kháng nghị",
+  "platform": "iPhone",
+  "states": [
+   "Bị khoá tạm"
+  ],
+  "file": "D-047.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-048",
+  "name": "Lock appeal form",
+  "group": "Khoá tài khoản & kháng nghị",
+  "platform": "iPhone",
+  "states": [
+   "Soạn kháng nghị",
+   "Đã gửi"
+  ],
+  "file": "D-048.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-049",
+  "name": "Earnings/history",
+  "group": "Tài khoản & hỗ trợ",
+  "platform": "iPhone",
+  "states": [
+   "Danh sách",
+   "Trống"
+  ],
+  "file": "D-049.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-050",
+  "name": "Notifications",
+  "group": "Tài khoản & hỗ trợ",
+  "platform": "iPhone",
+  "states": [
+   "Việc, thanh toán, chat, khoá"
+  ],
+  "file": "D-050.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-051",
+  "name": "Account/settings",
+  "group": "Tài khoản & hỗ trợ",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định"
+  ],
+  "file": "D-051.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-052",
+  "name": "Help/support",
+  "group": "Tài khoản & hỗ trợ",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định"
+  ],
+  "file": "D-052.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-053",
+  "name": "Job history",
+  "group": "Tài khoản & hỗ trợ",
+  "platform": "iPhone",
+  "states": [
+   "Danh sách",
+   "Lọc Đi xe",
+   "Trống"
+  ],
+  "file": "D-053.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-054",
+  "name": "Job history detail",
+  "group": "Tài khoản & hỗ trợ",
+  "platform": "iPhone",
+  "states": [
+   "Hoàn thành",
+   "Đã huỷ",
+   "Tranh chấp"
+  ],
+  "file": "D-054.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-055",
+  "name": "Case / complaint list",
+  "group": "Khoá tài khoản & kháng nghị",
+  "platform": "iPhone",
+  "states": [
+   "Danh sách",
+   "Trống"
+  ],
+  "file": "D-055.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-056",
+  "name": "Case / complaint detail",
+  "group": "Khoá tài khoản & kháng nghị",
+  "platform": "iPhone",
+  "states": [
+   "Yêu cầu phản hồi"
+  ],
+  "file": "D-056.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-057",
+  "name": "Direct call confirmation",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Gọi khách / tổng đài",
+   "Không khả dụng"
+  ],
+  "file": "D-057.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-058",
+  "name": "Proof/evidence image viewer",
+  "group": "Chat & gọi điện",
+  "platform": "iPhone",
+  "states": [
+   "Xem & phóng to",
+   "Liên kết hết hạn"
+  ],
+  "file": "D-058.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "D-059",
+  "name": "Privacy / consent settings",
+  "group": "Tài khoản & hỗ trợ",
+  "platform": "iPhone",
+  "states": [
+   "Mặc định"
+  ],
+  "file": "D-059.dc.html",
+  "page": "driver"
+ },
+ {
+  "id": "A-000",
+  "name": "Admin login",
+  "group": "Đăng nhập & khung",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Sai thông tin",
+   "Bị khoá"
+  ],
+  "file": "A-000.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-001",
+  "name": "OTP / second factor if enabled",
+  "group": "Đăng nhập & khung",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Lỗi"
+  ],
+  "file": "A-001.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-002",
+  "name": "Admin shell / sidebar",
+  "group": "Đăng nhập & khung",
+  "platform": "Web 1440",
+  "states": [
+   "Mở rộng",
+   "Thu gọn"
+  ],
+  "file": "A-002.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-003",
+  "name": "Permission denied",
+  "group": "Đăng nhập & khung",
+  "platform": "Web 1440",
+  "states": [
+   "Không có quyền"
+  ],
+  "file": "A-003.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-004",
+  "name": "Global search / command palette",
+  "group": "Đăng nhập & khung",
+  "platform": "Web 1440",
+  "states": [
+   "Có kết quả",
+   "Không có kết quả"
+  ],
+  "file": "A-004.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-005",
+  "name": "Dashboard overview",
+  "group": "Tổng quan",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Đang tải",
+   "Lỗi"
+  ],
+  "file": "A-005.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-006",
+  "name": "Marketplace health widgets",
+  "group": "Tổng quan",
+  "platform": "Web 1440",
+  "states": [
+   "Ride/Food & rủi ro"
+  ],
+  "file": "A-006.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-007",
+  "name": "Live ops queue",
+  "group": "Tổng quan",
+  "platform": "Web 1440",
+  "states": [
+   "Có việc tồn",
+   "Không có việc"
+  ],
+  "file": "A-007.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-008",
+  "name": "Recent activity/audit preview",
+  "group": "Tổng quan",
+  "platform": "Web 1440",
+  "states": [
+   "Danh sách",
+   "Trống"
+  ],
+  "file": "A-008.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-009",
+  "name": "Dashboard empty/new launch",
+  "group": "Tổng quan",
+  "platform": "Web 1440",
+  "states": [
+   "Chưa có dữ liệu"
+  ],
+  "file": "A-009.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-010",
+  "name": "Region list",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Active / Paused / Planned",
+   "Trống"
+  ],
+  "file": "A-010.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-011",
+  "name": "Region detail drawer",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Xem thông tin & audit"
+  ],
+  "file": "A-011.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-012",
+  "name": "Create city/region",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Lỗi trùng tên"
+  ],
+  "file": "A-012.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-013",
+  "name": "Polygon editor map",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Bản nháp",
+   "Đang chọn vùng",
+   "Đang tải bản đồ"
+  ],
+  "file": "A-013.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-014",
+  "name": "Draw polygon",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Thêm điểm",
+   "Đã đóng hình"
+  ],
+  "file": "A-014.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-015",
+  "name": "Edit polygon vertices",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Kéo đỉnh",
+   "Hình không hợp lệ"
+  ],
+  "file": "A-015.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-016",
+  "name": "Polygon overlap blocked",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Chặn xuất bản"
+  ],
+  "file": "A-016.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-017",
+  "name": "Service/vehicle availability panel",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Đi xe/Đặt món · Xe máy/Ô tô"
+  ],
+  "file": "A-017.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-018",
+  "name": "Region lifecycle controls",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Planned → Closed"
+  ],
+  "file": "A-018.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-019",
+  "name": "Publish region config",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Xác nhận có lý do"
+  ],
+  "file": "A-019.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-020",
+  "name": "Pause/resume region",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Bắt buộc lý do"
+  ],
+  "file": "A-020.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-021",
+  "name": "Region publish conflict",
+  "group": "Khu vực & polygon",
+  "platform": "Web 1440",
+  "states": [
+   "Xung đột phiên bản"
+  ],
+  "file": "A-021.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-022",
+  "name": "Pricing/policy config list",
+  "group": "Giá & chính sách",
+  "platform": "Web 1440",
+  "states": [
+   "Bản nháp & đã xuất bản",
+   "Đang tải"
+  ],
+  "file": "A-022.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-023",
+  "name": "Ride pricing guardrails form",
+  "group": "Giá & chính sách",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Lỗi guardrail"
+  ],
+  "file": "A-023.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-024",
+  "name": "Food delivery fee policy form",
+  "group": "Giá & chính sách",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Lỗi"
+  ],
+  "file": "A-024.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-025",
+  "name": "Matching timeout/wave policy form",
+  "group": "Giá & chính sách",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Lỗi"
+  ],
+  "file": "A-025.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-026",
+  "name": "Auto-lock/fraud threshold policy",
+  "group": "Giá & chính sách",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Lỗi"
+  ],
+  "file": "A-026.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-027",
+  "name": "Policy publish confirmation",
+  "group": "Giá & chính sách",
+  "platform": "Web 1440",
+  "states": [
+   "Xác nhận có lý do"
+  ],
+  "file": "A-027.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-028",
+  "name": "Policy audit timeline",
+  "group": "Giá & chính sách",
+  "platform": "Web 1440",
+  "states": [
+   "Người/thời gian/khác biệt"
+  ],
+  "file": "A-028.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-029",
+  "name": "Driver list",
+  "group": "Tài xế · Duyệt & quản lý",
+  "platform": "Web 1440",
+  "states": [
+   "Tất cả",
+   "Lọc chờ duyệt",
+   "Lọc đã khoá"
+  ],
+  "file": "A-029.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-030",
+  "name": "Driver detail drawer",
+  "group": "Tài xế · Duyệt & quản lý",
+  "platform": "Web 1440",
+  "states": [
+   "Hồ sơ, dịch vụ, giấy tờ"
+  ],
+  "file": "A-030.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-031",
+  "name": "KYC/document viewer",
+  "group": "Tài xế · Duyệt & quản lý",
+  "platform": "Web 1440",
+  "states": [
+   "Ảnh",
+   "PDF"
+  ],
+  "file": "A-031.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-032",
+  "name": "Driver approval/rejection",
+  "group": "Tài xế · Duyệt & quản lý",
+  "platform": "Web 1440",
+  "states": [
+   "Từ chối có lý do",
+   "Duyệt có lý do"
+  ],
+  "file": "A-032.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-033",
+  "name": "Platform fee proof review",
+  "group": "Tài xế · Duyệt & quản lý",
+  "platform": "Web 1440",
+  "states": [
+   "Duyệt/từ chối"
+  ],
+  "file": "A-033.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-034",
+  "name": "Driver service eligibility editor",
+  "group": "Tài xế · Duyệt & quản lý",
+  "platform": "Web 1440",
+  "states": [
+   "Cờ dịch vụ/phương tiện"
+  ],
+  "file": "A-034.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-035",
+  "name": "Manual lock driver",
+  "group": "Tài xế · Khoá & kháng nghị",
+  "platform": "Web 1440",
+  "states": [
+   "Bắt buộc lý do"
+  ],
+  "file": "A-035.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-036",
+  "name": "Auto-lock review queue",
+  "group": "Tài xế · Khoá & kháng nghị",
+  "platform": "Web 1440",
+  "states": [
+   "SLA, lý do, mức độ"
+  ],
+  "file": "A-036.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-037",
+  "name": "Driver appeal detail",
+  "group": "Tài xế · Khoá & kháng nghị",
+  "platform": "Web 1440",
+  "states": [
+   "Nội dung & bằng chứng"
+  ],
+  "file": "A-037.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-038",
+  "name": "Unlock driver",
+  "group": "Tài xế · Khoá & kháng nghị",
+  "platform": "Web 1440",
+  "states": [
+   "Có quyền",
+   "Không đủ quyền"
+  ],
+  "file": "A-038.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-039",
+  "name": "Driver audit timeline",
+  "group": "Tài xế · Khoá & kháng nghị",
+  "platform": "Web 1440",
+  "states": [
+   "Người/thời gian/hành động"
+  ],
+  "file": "A-039.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-040",
+  "name": "Food brand list",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Danh sách",
+   "Tìm kiếm",
+   "Trống"
+  ],
+  "file": "A-040.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-041",
+  "name": "Brand detail/editor",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Bản nháp",
+   "Đã xuất bản"
+  ],
+  "file": "A-041.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-042",
+  "name": "Outlet list",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Đóng / mở / thiếu dữ liệu"
+  ],
+  "file": "A-042.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-043",
+  "name": "Outlet detail/editor",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Giờ, địa chỉ, vùng"
+  ],
+  "file": "A-043.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-044",
+  "name": "Menu item list",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Thiếu giá, xung đột"
+  ],
+  "file": "A-044.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-045",
+  "name": "Menu item editor",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Lỗi nhập liệu"
+  ],
+  "file": "A-045.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-046",
+  "name": "Outlet override editor",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Giá/trạng thái"
+  ],
+  "file": "A-046.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-047",
+  "name": "Catalog conflict review",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Trùng/xung đột"
+  ],
+  "file": "A-047.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-048",
+  "name": "Import/upload catalog placeholder",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Ghi chú nhập thủ công"
+  ],
+  "file": "A-048.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-049",
+  "name": "Publish catalog changes",
+  "group": "Danh mục món",
+  "platform": "Web 1440",
+  "states": [
+   "Xác nhận có lý do"
+  ],
+  "file": "A-049.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-050",
+  "name": "Complaint/case queue",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Tất cả",
+   "Lọc kháng nghị"
+  ],
+  "file": "A-050.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-051",
+  "name": "Case detail",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Đang xem xét"
+  ],
+  "file": "A-051.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-052",
+  "name": "Evidence viewer",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Chứng từ thanh toán"
+  ],
+  "file": "A-052.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-053",
+  "name": "Payment proof dispute review",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Bằng chứng mâu thuẫn"
+  ],
+  "file": "A-053.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-054",
+  "name": "Request user response",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Khách/tài xế, hạn"
+  ],
+  "file": "A-054.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-055",
+  "name": "Fraud escalation",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Loại, mức độ, lý do"
+  ],
+  "file": "A-055.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-056",
+  "name": "Case decision form",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Xác nhận",
+   "Bác bỏ"
+  ],
+  "file": "A-056.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-057",
+  "name": "Appeal review",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Chấp nhận/bác kháng nghị"
+  ],
+  "file": "A-057.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-058",
+  "name": "Case audit timeline",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Bất biến"
+  ],
+  "file": "A-058.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-059",
+  "name": "Case finalized summary",
+  "group": "Khiếu nại & gian lận",
+  "platform": "Web 1440",
+  "states": [
+   "Đã kết luận"
+  ],
+  "file": "A-059.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-060",
+  "name": "Media/evidence signed URL expired",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Hết hạn — tải lại",
+   "Không có quyền"
+  ],
+  "file": "A-060.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-061",
+  "name": "Audit log search",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Có bộ lọc",
+   "Trống"
+  ],
+  "file": "A-061.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-062",
+  "name": "Admin user / RBAC list",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Danh sách vai trò"
+  ],
+  "file": "A-062.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-063",
+  "name": "Admin user detail / role assignment",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Ma trận quyền"
+  ],
+  "file": "A-063.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-064",
+  "name": "Sensitive action reason dialog",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Mặc định",
+   "Lỗi thiếu lý do"
+  ],
+  "file": "A-064.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-065",
+  "name": "Config version diff",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Trước / sau"
+  ],
+  "file": "A-065.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-066",
+  "name": "Basic ops dashboard drilldown",
+  "group": "Tổng quan",
+  "platform": "Web 1440",
+  "states": [
+   "Ride/Food/rủi ro theo vùng"
+  ],
+  "file": "A-066.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-067",
+  "name": "System health / queue status",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Bình thường",
+   "Suy giảm"
+  ],
+  "file": "A-067.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-068",
+  "name": "Admin settings",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Hồ sơ, thông báo, đăng xuất"
+  ],
+  "file": "A-068.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-069",
+  "name": "Empty/error/loading template",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Mẫu trống / lỗi / đang tải"
+  ],
+  "file": "A-069.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-070",
+  "name": "Finance proof queue",
+  "group": "Tài chính & khách hàng",
+  "platform": "Web 1440",
+  "states": [
+   "Tất cả",
+   "Lọc chờ xác minh"
+  ],
+  "file": "A-070.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-071",
+  "name": "Finance proof detail",
+  "group": "Tài chính & khách hàng",
+  "platform": "Web 1440",
+  "states": [
+   "Duyệt/từ chối"
+  ],
+  "file": "A-071.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-072",
+  "name": "Customer management light",
+  "group": "Tài chính & khách hàng",
+  "platform": "Web 1440",
+  "states": [
+   "Tìm kiếm"
+  ],
+  "file": "A-072.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-073",
+  "name": "Customer detail / history",
+  "group": "Tài chính & khách hàng",
+  "platform": "Web 1440",
+  "states": [
+   "Lịch sử & khiếu nại"
+  ],
+  "file": "A-073.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-074",
+  "name": "Notification template/config baseline",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Mẫu việc/thanh toán/chat/khoá"
+  ],
+  "file": "A-074.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-075",
+  "name": "Data/privacy request queue",
+  "group": "Tài chính & khách hàng",
+  "platform": "Web 1440",
+  "states": [
+   "Xuất/xoá, ngoại lệ"
+  ],
+  "file": "A-075.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-076",
+  "name": "Data/privacy request detail",
+  "group": "Tài chính & khách hàng",
+  "platform": "Web 1440",
+  "states": [
+   "Quyết định & audit"
+  ],
+  "file": "A-076.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "L-001",
+  "name": "Landing home hero",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
+  "platform": "Web",
+  "states": [
+   "Desktop",
+   "Mobile"
+  ],
+  "file": "L-001.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-002",
+  "name": "Customer value section",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
+  "platform": "Web",
+  "states": [
+   "Đi xe + Đặt món"
+  ],
+  "file": "L-002.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-003",
+  "name": "Driver acquisition section",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
+  "platform": "Web",
+  "states": [
+   "0% hoa hồng + gói ra mắt"
+  ],
+  "file": "L-003.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-004",
+  "name": "How Onway works",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
+  "platform": "Web",
+  "states": [
+   "Chuyển khoản trực tiếp + chứng từ"
+  ],
+  "file": "L-004.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-005",
+  "name": "Safety / dispute / connection model",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
+  "platform": "Web",
+  "states": [
+   "Mô hình kết nối, an toàn"
+  ],
+  "file": "L-005.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-006",
+  "name": "App download / waitlist CTA",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
+  "platform": "Web",
+  "states": [
+   "Có link tải",
+   "Chưa có link — waitlist"
+  ],
+  "file": "L-006.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-007",
+  "name": "FAQ",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
+  "platform": "Web",
+  "states": [
+   "Khách hàng",
+   "Tài xế"
+  ],
+  "file": "L-007.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-008",
+  "name": "Footer / legal links",
+  "group": "Landing · Trang chủ (xếp dọc như trang web)",
+  "platform": "Web",
+  "states": [
+   "Quyền riêng tư, điều khoản, liên hệ"
+  ],
+  "file": "L-008.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-009",
+  "name": "Terms page",
+  "group": "Landing · Trang phụ",
+  "platform": "Web",
+  "states": [
+   "Khung nội dung pháp lý"
+  ],
+  "file": "L-009.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-010",
+  "name": "Privacy page",
+  "group": "Landing · Trang phụ",
+  "platform": "Web",
+  "states": [
+   "Khung nội dung quyền riêng tư"
+  ],
+  "file": "L-010.dc.html",
+  "page": "landing"
+ },
+ {
+  "id": "L-011",
+  "name": "Contact/support page",
+  "group": "Landing · Trang phụ",
+  "platform": "Web",
+  "states": [
+   "Khách, tài xế, đối tác"
+  ],
+  "file": "L-011.dc.html",
+  "page": "landing"
+ }
+]

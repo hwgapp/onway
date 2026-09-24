@@ -24,4 +24,4 @@ Claude Design phải cung cấp UI workflow cho tất cả màn hình trong scre
 
 | Screen ID | Frame/Mockup | Flow | States Delivered | Components Used | Notes |
 | --- | --- | --- | --- | --- | --- |
-| All P0 screens | Required from Claude Design | UF-001 to UF-007 | default + relevant states above | Must map to component inventory | Frame names must match output contract |
+| All P0 screens | 216 artboard trong canvas Onway UI Workflow — chi tiết `mockups/screen-map.md` | UF-001 to UF-007 (`mockups/flow-map.md`) | Xem `mockups/state-coverage.md` | Token + component spec trong `system/` | Known gaps: `mockups/frame-export-notes.md` |
