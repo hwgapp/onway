@@ -2,8 +2,9 @@
 
 ## Nguồn
 
-- Canvas Design: [https://claude.ai/artifact/4cHL1pqQYuNLWsi2m2H44Y](https://claude.ai/artifact/4cHL1pqQYuNLWsi2m2H44Y) — artifact riêng tư, chỉ chủ sở hữu mở được cho tới khi chia sẻ từ menu Share của trang.
-- Trang canvas: `Tổng quan` (bìa + sơ đồ UF-001…UF-007), `Customer App`, `Driver App`, `Admin Portal`, `Landing Web`.
+- Canvas “Customer & Driver”: [https://claude.ai/artifact/4cHL1pqQYuNLWsi2m2H44Y](https://claude.ai/artifact/4cHL1pqQYuNLWsi2m2H44Y) — trang `Tổng quan`, `Customer App`, `Driver App`.
+- Canvas “Admin & Landing”: [https://claude.ai/artifact/CxkTKZioRmXx1xWKrzYf79](https://claude.ai/artifact/CxkTKZioRmXx1xWKrzYf79) — trang `Tổng quan`, `Admin Portal`, `Landing Web`.
+- Tách hai canvas vì trình canvas chỉ tải tối đa 200 file mỗi canvas. Cả hai là artifact riêng tư, cần chia sẻ từ menu Share của trang.
 - Design system: Onway (`claude.ai/code/artifact/3a7f770f-…`), đã cài vào canvas tại `project/ds/onway/tokens.json` để Theme menu dùng đúng màu/chữ.
 - Nguồn sinh frame (Python, dựng từ token): `raw/generator/`. Chạy `python3 build.py` trong thư mục đó để sinh lại `canvas/project/*.dc.html`.
 
