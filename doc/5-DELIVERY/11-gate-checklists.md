@@ -49,14 +49,14 @@ Không qua gate nếu checklist bắt buộc chưa pass hoặc chưa có assumpt
 
 ## G5 - Claude Design Handoff
 
-- [ ] Design brief đủ audience/style/reference.
-- [ ] Prompt Claude Design sẵn copy.
-- [ ] Design system requirements rõ.
-- [ ] Screen flow requirements map screen inventory.
-- [ ] Design review checklist sẵn.
-- [ ] Handoff yêu cầu rõ 2 deliverables: design system và UI workflow tất cả màn hình.
-- [ ] Output contract cho Claude Design được đính kèm.
-- [ ] Có bảng dự kiến map design system -> implementation tasks.
+- [x] Design brief đủ audience/style/reference.
+- [x] Prompt Claude Design sẵn copy.
+- [x] Design system requirements rõ.
+- [x] Screen flow requirements map screen inventory.
+- [x] Design review checklist sẵn.
+- [x] Handoff yêu cầu rõ 2 deliverables: design system và UI workflow tất cả màn hình.
+- [x] Output contract cho Claude Design được đính kèm.
+- [x] Có bảng dự kiến map design system -> implementation tasks.
 - [ ] Có bảng dự kiến map UI workflow/screen -> implementation tasks.
 
 ## G6 - Delivery Task Graph
