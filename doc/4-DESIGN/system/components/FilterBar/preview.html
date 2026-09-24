@@ -1,0 +1,13 @@
+<!-- @dsCard group="Admin" height=140 width=560 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var FilterBar = window.Onway.FilterBar;
+  root.render(h("div", { style: { padding: "20px" } }, h(FilterBar, null)));
+</script>
+</body>
+</html>

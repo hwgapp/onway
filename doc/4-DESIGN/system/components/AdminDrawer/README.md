@@ -1,0 +1,1 @@
+Right-side detail panel for a `DataTable` row (S-019, S-020, S-021) — a *pattern*: `Sheet`'s side variant, not yet built as its own component (source fix list DF-002).

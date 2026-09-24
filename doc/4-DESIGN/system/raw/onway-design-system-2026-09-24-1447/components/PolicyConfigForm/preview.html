@@ -1,0 +1,13 @@
+<!-- @dsCard group="Admin" height=220 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var PolicyConfigForm = window.Onway.PolicyConfigForm;
+  root.render(h("div", { style: { padding: "20px" } }, h(PolicyConfigForm, null)));
+</script>
+</body>
+</html>

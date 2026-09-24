@@ -11,12 +11,16 @@ Package theo `doc/4-DESIGN/07-claude-design-output-contract.md` §2. Copy nguyê
 | `accessibility.md` | Contrast, touch target, dynamic type, reduced motion, screen reader |
 | `implementation-notes.md` | Hướng dẫn Codex: mapping token → code, thứ tự task, dependency |
 | `assets/` | Logo SVG chính thức, mark, app icon |
+| `design-system.json` | Metadata/design-system export từ package mới |
+| `components/` | 48 component folders, preview HTML, `bundle.css`, `bundle.js`, `index.d.ts` |
+| `implementation-package.md` | README nguyên văn từ package mới |
+| `raw/onway-design-system-2026-09-24-1447/` | Raw import để truy vết source package |
 
 ## Trạng thái handoff
 
 | Package | Status | Source Artifact | Imported To | Notes |
 | --- | --- | --- | --- | --- |
-| Design System | Ready for import | Claude Design project "Onway Design System" (2026-09-24) | `system/` | 37 component đã build; 9 component P0 còn ở dạng pattern, xem inventory |
+| Design System | Imported | `/Users/vod/Downloads/Onway-Design-System.zip` (2026-09-24 14:47) | `system/` | 48 component folders imported with previews, CSS/JS bundle, `index.d.ts`, tokens and design metadata |
 | UI Workflow | Pending | — | `mockups/` | Làm sau khi Design System được duyệt |
 
 ## Quyết định đã chốt

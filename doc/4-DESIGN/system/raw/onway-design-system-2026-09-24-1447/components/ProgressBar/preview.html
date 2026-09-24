@@ -1,0 +1,16 @@
+<!-- @dsCard group="Feedback" height=120 subtitle="bar / step track" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var ProgressBar = window.Onway.ProgressBar;
+  root.render(h("div", { style: { padding: "20px", display: "flex", flexDirection: "column", gap: "16px", maxWidth: "280px" } },
+    h(ProgressBar, { value: 60 }),
+    h(ProgressBar, { steps: [1,2,3,4], currentStep: 2 })
+  ));
+</script>
+</body>
+</html>

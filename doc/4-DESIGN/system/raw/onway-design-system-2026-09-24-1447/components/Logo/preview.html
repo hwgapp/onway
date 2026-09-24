@@ -1,0 +1,19 @@
+<!-- @dsCard group="Brand" height=140 subtitle="light / dark / ink / white" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Logo = window.Onway.Logo;
+  root.render(
+    h("div", { style: { display: "flex", gap: "24px", padding: "20px", alignItems: "center", flexWrap: "wrap" } },
+      h(Logo, { variant: "light", height: 28 }),
+      h("div", { style: { background: "var(--action-primary-bg)", padding: "12px 16px", borderRadius: "8px" } }, h(Logo, { variant: "dark", height: 24 })),
+      h("div", { style: { background: "var(--action-secondary-bg)", padding: "12px 16px", borderRadius: "8px" } }, h(Logo, { variant: "dark", height: 24 }))
+    )
+  );
+</script>
+</body>
+</html>

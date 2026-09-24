@@ -1,0 +1,13 @@
+<!-- @dsCard group="Map/Admin" height=120 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var RegionEditorToolbar = window.Onway.RegionEditorToolbar;
+  root.render(h("div", { style: { padding: "20px" } }, h(RegionEditorToolbar, null)));
+</script>
+</body>
+</html>

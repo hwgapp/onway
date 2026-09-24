@@ -1,0 +1,13 @@
+<!-- @dsCard group="Feedback" height=120 subtitle="web-only, pairs with IconButton" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Tooltip = window.Onway.Tooltip;
+  root.render(h("div", { style: { padding: "40px 20px" } }, h(Tooltip, { label: "Sửa khu vực" })));
+</script>
+</body>
+</html>

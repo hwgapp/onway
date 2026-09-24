@@ -1,0 +1,52 @@
+<!-- @dsCard height=280 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+
+  /*
+    Derivation:
+    blocks: action-primary-bg (red-500, fixed) 200x120 rx=radius-2xl(24) · action-secondary-bg
+      (ink-950/ink-0, inverts) 200x150 rx=radius-2xl(24), bleeding off the right edge ·
+      surface-active (ink-100/ink-700) 140x70 rx=radius-xl(16) relief tint.
+    arrangement: two big blocks staggered top-right and mid-right, one small tint block
+      lower-left of them — the way a JobStatusHeader stacks a status pill over a card,
+      not a flush grid.
+    pattern: the route line — Onway's one literal, everyday picture (MapSurface route +
+      pickup dot + drop-off pin, map.route / map.pin-pickup / map.pin-dropoff tokens) —
+      a single 5px rounded-cap stroke (text-primary, inverts) bending through the blocks
+      from a pickup dot to a red pin (action-primary-bg, fixed): more specifically Onway
+      than a generic dot/plus grid, because the product IS the route.
+    scales used: radius-2xl, radius-xl, radius-full (pin), space-8 stroke gap.
+  */
+  var svg = (
+    '<svg viewBox="0 0 960 280" width="960" height="280" xmlns="http://www.w3.org/2000/svg">' +
+      '<style>' +
+        '.block-brand{fill:var(--action-primary-bg)}' +
+        '.block-ink{fill:var(--action-secondary-bg)}' +
+        '.block-tint{fill:var(--surface-active)}' +
+        '.route{stroke:var(--text-primary);stroke-width:5;fill:none;stroke-linecap:round}' +
+        '.pickup{fill:var(--text-primary)}' +
+        '.dropoff{fill:var(--action-primary-bg)}' +
+        '.name{fill:var(--text-primary);font:800 108px var(--font-sans);letter-spacing:-0.035em}' +
+        '.tagline{fill:var(--text-secondary);font:400 14px var(--font-sans)}' +
+      '</style>' +
+      '<rect class="block-ink" x="770" y="86" width="210" height="150" rx="24"/>' +
+      '<rect class="block-brand" x="556" y="34" width="200" height="120" rx="24"/>' +
+      '<rect class="block-tint" x="520" y="188" width="140" height="70" rx="16"/>' +
+      '<path class="route" d="M 560 210 C 610 250, 660 130, 720 110 S 840 60, 900 100"/>' +
+      '<circle class="pickup" cx="560" cy="210" r="7"/>' +
+      '<rect class="dropoff" x="892" y="92" width="16" height="16" rx="4" transform="rotate(45 900 100)"/>' +
+      '<text class="name" x="40" y="176">Onway</text>' +
+      '<text class="tagline" x="42" y="204">Đơn sắc, rõ trạng thái, đúng giờ.</text>' +
+    '</svg>'
+  );
+  root.render(
+    h("div", { style: { width: "960px", height: "280px" }, dangerouslySetInnerHTML: { __html: svg } })
+  );
+</script>
+</body>
+</html>

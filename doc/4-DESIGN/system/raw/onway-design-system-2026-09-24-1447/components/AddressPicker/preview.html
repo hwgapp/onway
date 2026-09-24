@@ -1,0 +1,13 @@
+<!-- @dsCard group="Map" height=280 subtitle="Input search + ListRow results" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var AddressPicker = window.Onway.AddressPicker;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "340px" } }, h(AddressPicker, null)));
+</script>
+</body>
+</html>

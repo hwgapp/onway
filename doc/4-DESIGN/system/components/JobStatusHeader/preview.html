@@ -1,0 +1,16 @@
+<!-- @dsCard group="Booking" height=220 subtitle="pill · headline · meta · step track" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var JobStatusHeader = window.Onway.JobStatusHeader;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "360px", display: "flex", flexDirection: "column", gap: "12px" } },
+    h(JobStatusHeader, { status: "arriving", step: 1 }),
+    h(JobStatusHeader, { status: "disputed", headline: "Chuyến đang được xử lý khiếu nại", step: 2 })
+  ));
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Food catalog editing (S-020) — a *pattern*: `Tabs` + `DataTable` + `Input` + draft/publish `StatusPill`, not yet packaged.

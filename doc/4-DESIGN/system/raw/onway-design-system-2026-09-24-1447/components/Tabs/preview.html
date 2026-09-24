@@ -1,0 +1,13 @@
+<!-- @dsCard group="Navigation" height=100 subtitle="inline tab switcher" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Tabs = window.Onway.Tabs;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "360px" } }, h(Tabs, { items: ["Tất cả", "Đang chạy", "Hoàn tất", "Đã huỷ"], active: 1 })));
+</script>
+</body>
+</html>

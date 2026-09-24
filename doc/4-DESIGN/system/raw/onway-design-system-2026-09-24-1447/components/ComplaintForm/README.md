@@ -1,0 +1,1 @@
+Complaint / case intake (S-009) — a *pattern*: `Radio` reason + `Input` description + `ProofUpload`, not yet packaged.

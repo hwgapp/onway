@@ -1,0 +1,13 @@
+<!-- @dsCard group="Communication" height=220 subtitle="me / them bubbles, expired attachment" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var ChatRoom = window.Onway.ChatRoom;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "320px" } }, h(ChatRoom, null)));
+</script>
+</body>
+</html>

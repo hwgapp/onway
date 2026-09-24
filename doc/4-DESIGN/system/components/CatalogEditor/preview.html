@@ -1,0 +1,13 @@
+<!-- @dsCard group="CMS" height=220 width=360 subtitle="Tabs + Input + draft/publish StatusPill" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var CatalogEditor = window.Onway.CatalogEditor;
+  root.render(h("div", { style: { padding: "20px" } }, h(CatalogEditor, null)));
+</script>
+</body>
+</html>

@@ -10,7 +10,7 @@ Deferred
 
 | Task ID | Phase | Lane | Status | Size | Depends On | Blocks | Owner | Progress | Tests | Blocker | Notes |
 | --- | --- | --- | --- | ---: | --- | --- | --- | ---: | --- | --- | --- |
-| T-001 | P0 | Docs | Running | 2 | - | BRD frozen, PRD frozen, Technical frozen, Design handoff | Codex/User | 99% | Doc review | G5-001 UI Workflow/mockups | G2/G3/G4 pass; Design System imported; full app screen/frame map ready; còn thiếu UI Workflow/mockups để pass G5/G6 |
+| T-001 | P0 | Docs | Running | 2 | - | BRD frozen, PRD frozen, Technical frozen, Design handoff | Codex/User | 99% | Doc review | G5-001 UI Workflow/mockups | G2/G3/G4 pass; updated Design System imported; full app screen/frame map ready; còn thiếu UI Workflow/mockups để pass G5/G6 |
 
 ## Rollup
 

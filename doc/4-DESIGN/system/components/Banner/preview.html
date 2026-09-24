@@ -1,0 +1,20 @@
+<!-- @dsCard group="Feedback" height=280 subtitle="info / success / warning / danger / offline / locked" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Banner = window.Onway.Banner;
+  root.render(
+    h("div", { style: { display: "flex", flexDirection: "column", gap: "10px", padding: "20px" } },
+      h(Banner, { tone: "warning", action: "Xem khu vực" }, "Khu vực này chưa hỗ trợ đặt xe."),
+      h(Banner, { tone: "danger", action: "Thử lại" }, "Không thể xác nhận thanh toán."),
+      h(Banner, { tone: "offline", action: "Thử lại" }, "Mất kết nối mạng."),
+      h(Banner, { tone: "locked" }, "Bạn không có quyền xem nội dung này.")
+    )
+  );
+</script>
+</body>
+</html>

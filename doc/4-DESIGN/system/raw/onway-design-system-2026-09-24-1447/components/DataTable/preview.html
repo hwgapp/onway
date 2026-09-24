@@ -1,0 +1,13 @@
+<!-- @dsCard group="Admin" height=220 subtitle="sticky header, 44px rows, sm StatusPill" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var DataTable = window.Onway.DataTable;
+  root.render(h("div", { style: { padding: "20px" } }, h(DataTable, null)));
+</script>
+</body>
+</html>

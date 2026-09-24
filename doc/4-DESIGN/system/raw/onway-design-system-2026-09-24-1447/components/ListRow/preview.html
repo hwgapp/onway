@@ -1,0 +1,18 @@
+<!-- @dsCard group="Core UI" height=160 subtitle="title / subtitle / trailing" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var ListRow = window.Onway.ListRow;
+  root.render(
+    h("div", { style: { maxWidth: "360px", border: "1px solid var(--border-subtle)", borderRadius: "12px", overflow: "hidden" } },
+      h(ListRow, { title: "Nhà", subtitle: "227 Nguyễn Văn Cừ, Q5" }),
+      h(ListRow, { title: "Công ty", subtitle: "72 Lê Thánh Tôn, Q1" })
+    )
+  );
+</script>
+</body>
+</html>

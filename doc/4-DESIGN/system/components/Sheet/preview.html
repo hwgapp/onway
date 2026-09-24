@@ -1,0 +1,13 @@
+<!-- @dsCard group="Feedback" height=260 subtitle="bottom sheet, radius-sheet, drag handle" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Sheet = window.Onway.Sheet;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "360px", background: "var(--surface-sunken)" } }, h(Sheet, null)));
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!-- @dsCard group="Form" height=140 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Radio = window.Onway.Radio;
+  root.render(h("div", { style: { padding: "20px" } }, h(Radio, { label: "Loại xe", options: ["Xe 4 chỗ", "Xe 7 chỗ", "Xe máy"] })));
+</script>
+</body>
+</html>

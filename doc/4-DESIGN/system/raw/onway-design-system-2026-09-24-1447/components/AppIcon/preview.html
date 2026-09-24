@@ -1,0 +1,19 @@
+<!-- @dsCard group="Brand" height=140 subtitle="customer (red) / driver (ink) / favicon" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var AppIcon = window.Onway.AppIcon;
+  root.render(
+    h("div", { style: { display: "flex", gap: "16px", padding: "20px" } },
+      h(AppIcon, { variant: "customer" }),
+      h(AppIcon, { variant: "driver" }),
+      h(AppIcon, { variant: "favicon", size: 32 })
+    )
+  );
+</script>
+</body>
+</html>

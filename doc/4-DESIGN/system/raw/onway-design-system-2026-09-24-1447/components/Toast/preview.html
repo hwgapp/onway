@@ -1,0 +1,16 @@
+<!-- @dsCard group="Feedback" height=140 subtitle="success / error, auto-dismiss 4s" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Toast = window.Onway.Toast;
+  root.render(h("div", { style: { padding: "20px", display: "flex", flexDirection: "column", gap: "10px", maxWidth: "320px" } },
+    h(Toast, { tone: "success" }, "Đặt chuyến thành công."),
+    h(Toast, { tone: "danger", action: "Thử lại" }, "Không thể kết nối máy chủ.")
+  ));
+</script>
+</body>
+</html>

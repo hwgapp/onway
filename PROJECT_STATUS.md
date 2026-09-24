@@ -20,7 +20,7 @@
 | Business / BRD | 100% | G2 pass; cập nhật D-024: bỏ Ride negotiation P0, giữ Ride+Food, auto-lock tối giản và Admin polygon tool |
 | PRD | 100% | G3 pass; đã chốt direct transfer, payment proof/dispute, Food proposal, polygon, auto-lock, RBAC, push/chat/rating/analytics |
 | Technical | 100% | G4 pass; đã chốt stack, module boundary, API/data/state, security/privacy baseline, test commands và scaffold paths |
-| Design handoff | 70% | Đã import Claude Design System và tạo full app screen/frame map + P0 coverage audit; còn thiếu UI Workflow/mockups từ Claude Design |
+| Design handoff | 72% | Đã import Claude Design System bản mới có component previews/types và tạo full app screen/frame map + P0 coverage audit; còn thiếu UI Workflow/mockups từ Claude Design |
 | Delivery task graph | 0% | Chưa bắt đầu |
 | Implementation | 0% | Chưa bắt đầu |
 | QA / Release | 0% | Chưa bắt đầu |

@@ -1,0 +1,13 @@
+<!-- @dsCard group="Admin" height=280 width=360 subtitle="Sheet side variant" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var AdminDrawer = window.Onway.AdminDrawer;
+  root.render(h("div", { style: { padding: "20px", height: "260px" } }, h(AdminDrawer, null)));
+</script>
+</body>
+</html>

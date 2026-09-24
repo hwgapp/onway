@@ -1,0 +1,16 @@
+<!-- @dsCard group="Form" height=100 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Switch = window.Onway.Switch;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "280px", display: "flex", flexDirection: "column", gap: "12px" } },
+    h(Switch, { checked: true }, "Trực tuyến"),
+    h(Switch, { checked: false }, "Nhận đơn Food")
+  ));
+</script>
+</body>
+</html>

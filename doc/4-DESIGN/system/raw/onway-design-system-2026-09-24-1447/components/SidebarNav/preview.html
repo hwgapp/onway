@@ -1,0 +1,13 @@
+<!-- @dsCard group="Navigation" height=340 width=280 subtitle="Admin web, 248px" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var SidebarNav = window.Onway.SidebarNav;
+  root.render(h("div", { style: { height: "320px" } }, h(SidebarNav, null)));
+</script>
+</body>
+</html>

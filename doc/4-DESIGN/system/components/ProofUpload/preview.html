@@ -1,0 +1,18 @@
+<!-- @dsCard group="Upload/Evidence" height=280 subtitle="empty / uploading / rejected / verified" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var ProofUpload = window.Onway.ProofUpload;
+  root.render(h("div", { style: { padding: "20px", display: "flex", flexDirection: "column", gap: "10px", maxWidth: "300px" } },
+    h(ProofUpload, { state: "empty" }),
+    h(ProofUpload, { state: "uploading" }),
+    h(ProofUpload, { state: "rejected", reason: "Ảnh mờ, không đọc được số tiền." }),
+    h(ProofUpload, { state: "verified" })
+  ));
+</script>
+</body>
+</html>

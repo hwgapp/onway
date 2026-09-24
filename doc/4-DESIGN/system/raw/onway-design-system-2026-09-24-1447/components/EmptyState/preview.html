@@ -1,0 +1,13 @@
+<!-- @dsCard group="Feedback" height=200 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var EmptyState = window.Onway.EmptyState;
+  root.render(h("div", { style: { padding: "20px" } }, h(EmptyState, { title: "Không có kết quả", description: "Thử xoá bớt bộ lọc để xem thêm tài xế." })));
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!-- @dsCard group="Booking" height=200 subtitle="Card + StatusPill + PriceRow" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var JobCard = window.Onway.JobCard;
+  root.render(h("div", { style: { padding: "20px" } }, h(JobCard, { status: "inProgress" })));
+</script>
+</body>
+</html>

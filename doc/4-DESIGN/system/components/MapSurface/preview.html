@@ -1,0 +1,16 @@
+<!-- @dsCard group="Map" height=260 subtitle="route / region — HERE-style placeholder" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var MapSurface = window.Onway.MapSurface;
+  root.render(h("div", { style: { padding: "20px", display: "flex", gap: "12px" } },
+    h("div", { style: { width: "220px" } }, h(MapSurface, { variant: "route" })),
+    h("div", { style: { width: "220px" } }, h(MapSurface, { variant: "region" }))
+  ));
+</script>
+</body>
+</html>

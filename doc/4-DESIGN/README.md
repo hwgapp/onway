@@ -19,5 +19,5 @@ Design handoff cho Claude Design và review mockup/design system.
 | Package | Status | Source Artifact | Imported To | Notes |
 | --- | --- | --- | --- | --- |
 | Brand Assets | Imported | `/Users/vod/Documents/ONW/design/logo.svg`, `/Users/vod/Documents/ONW/design/logo.png`; Claude Design System package | `system/assets/` | Logo variants and app icon SVGs imported |
-| Design System | Imported | `/Users/vod/Downloads/Onway Design System.zip` | `system/` | Tokens, component inventory, state matrix, accessibility and implementation notes imported |
+| Design System | Imported | `/Users/vod/Downloads/Onway-Design-System.zip` | `system/` | Updated package imported: tokens, design metadata, 48 component previews, CSS/JS bundle, type definitions, assets and raw source |
 | UI Workflow | Pending | TBD | `mockups/` | Need full frame workflow/mockups from `08-full-app-screen-frame-map.md` |

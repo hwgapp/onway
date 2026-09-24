@@ -1,0 +1,108 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Logos": {
+      "files": {
+        "logo-appicon-ink.svg": {
+          "blob": "6f93279c3383138d6b892e3bcf74cd92",
+          "name": "logo-appicon-ink.svg",
+          "size": 8435,
+          "type": "image/svg+xml"
+        },
+        "logo-appicon-light.svg": {
+          "blob": "4f03138ca9cdcfd653f11ecaec27c71b",
+          "name": "logo-appicon-light.svg",
+          "size": 8435,
+          "type": "image/svg+xml"
+        },
+        "logo-appicon.svg": {
+          "blob": "b1b0a97bfb4513b6aa094dd5ef3719a0",
+          "name": "logo-appicon.svg",
+          "size": 8435,
+          "type": "image/svg+xml"
+        },
+        "logo-dark.svg": {
+          "blob": "147272956203e4cbec9bb53914e7085f",
+          "name": "logo-dark.svg",
+          "size": 10706,
+          "type": "image/svg+xml"
+        },
+        "logo-ink.svg": {
+          "blob": "da258a3ac44819bbba8d099a937d884d",
+          "name": "logo-ink.svg",
+          "size": 10706,
+          "type": "image/svg+xml"
+        },
+        "logo-mark-white.svg": {
+          "blob": "d8437361a75141517208295a0db4babd",
+          "name": "logo-mark-white.svg",
+          "size": 8322,
+          "type": "image/svg+xml"
+        },
+        "logo-mark.svg": {
+          "blob": "831bf907f1e8d72f81c1e1b63e8be9d0",
+          "name": "logo-mark.svg",
+          "size": 8322,
+          "type": "image/svg+xml"
+        },
+        "logo-white.svg": {
+          "blob": "f0d575aaf7b9a629d246e03c965f778b",
+          "name": "logo-white.svg",
+          "size": 10706,
+          "type": "image/svg+xml"
+        },
+        "logo.svg": {
+          "blob": "394e81f13ef4df8b257024768fcced03",
+          "name": "logo.svg",
+          "size": 10706,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "logo.svg",
+        "logo-dark.svg",
+        "logo-white.svg",
+        "logo-ink.svg",
+        "logo-mark.svg",
+        "logo-mark-white.svg",
+        "logo-appicon.svg",
+        "logo-appicon-ink.svg",
+        "logo-appicon-light.svg"
+      ],
+      "tile": "l"
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-09-24T07:19:36.000Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [
+    "Logos"
+  ],
+  "lastChange": {
+    "at": "2026-09-24T08:05:00.000Z",
+    "by": "Yoosay",
+    "note": "Swept every text-* token against every surface-* token in both themes; fixed RatingStars' amber-500 fill (2.2:1, below even the 3:1 non-text floor) to amber-700 (5.4:1). Documented the remaining near-miss pairs that are not actually used together in any built component.",
+    "via": "Cowork · Onway_Design_System.zip (user upload)"
+  },
+  "layout": "files",
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18"
+    },
+    {
+      "name": "react-dom",
+      "version": "18"
+    }
+  ],
+  "namespace": "Onway",
+  "sections": {},
+  "title": "Onway"
+}

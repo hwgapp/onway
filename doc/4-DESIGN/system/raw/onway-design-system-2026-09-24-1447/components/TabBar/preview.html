@@ -1,0 +1,20 @@
+<!-- @dsCard group="Navigation" height=120 subtitle="3–4 items, badge" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var TabBar = window.Onway.TabBar;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "360px" } }, h(TabBar, {
+    items: [
+      { label: "Ride", icon: "car", active: true },
+      { label: "Food", icon: "home" },
+      { label: "Hoạt động", icon: "bell", badge: 3 },
+      { label: "Tài khoản", icon: "search" }
+    ]
+  })));
+</script>
+</body>
+</html>

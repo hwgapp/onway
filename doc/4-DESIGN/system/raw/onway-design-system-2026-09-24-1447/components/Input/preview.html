@@ -1,0 +1,19 @@
+<!-- @dsCard group="Form" height=260 subtitle="default / error / disabled" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Input = window.Onway.Input;
+  root.render(
+    h("div", { style: { display: "flex", flexDirection: "column", gap: "16px", padding: "20px" } },
+      h(Input, { label: "Điểm đón", placeholder: "Nhập địa chỉ" }),
+      h(Input, { label: "Mã tham chiếu", state: "error", helper: "Mã tham chiếu không đúng định dạng." }),
+      h(Input, { label: "Ghi chú", value: "Không thể chỉnh sửa", state: "disabled" })
+    )
+  );
+</script>
+</body>
+</html>

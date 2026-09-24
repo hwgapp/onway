@@ -1,0 +1,13 @@
+<!-- @dsCard group="Feedback" height=100 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var RatingStars = window.Onway.RatingStars;
+  root.render(h("div", { style: { padding: "20px" } }, h(RatingStars, { value: 4 })));
+</script>
+</body>
+</html>

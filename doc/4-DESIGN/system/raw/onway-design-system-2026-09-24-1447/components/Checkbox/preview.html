@@ -1,0 +1,16 @@
+<!-- @dsCard group="Form" height=100 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Checkbox = window.Onway.Checkbox;
+  root.render(h("div", { style: { padding: "20px", display: "flex", flexDirection: "column", gap: "10px" } },
+    h(Checkbox, { checked: true }, "Tôi đồng ý với điều khoản"),
+    h(Checkbox, {}, "Nhận thông báo khuyến mãi")
+  ));
+</script>
+</body>
+</html>

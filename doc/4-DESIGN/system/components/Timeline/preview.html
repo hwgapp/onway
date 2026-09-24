@@ -1,0 +1,20 @@
+<!-- @dsCard group="Booking" height=240 subtitle="done / current / pending / failed" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Timeline = window.Onway.Timeline;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "320px" } }, h(Timeline, {
+    items: [
+      { label: "Đã xác nhận", time: "14:02", state: "done" },
+      { label: "Đã duyệt hồ sơ", time: "14:03", actor: "admin.hoa", state: "done" },
+      { label: "Tài xế đang đến", time: "14:04", state: "current" },
+      { label: "Giao thất bại", time: "14:20", state: "failed" }
+    ]
+  })));
+</script>
+</body>
+</html>

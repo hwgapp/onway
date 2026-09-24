@@ -1,0 +1,13 @@
+<!-- @dsCard group="Navigation" height=120 subtitle="mobile header" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var TopBar = window.Onway.TopBar;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "360px" } }, h(TopBar, { title: "Đặt xe" })));
+</script>
+</body>
+</html>

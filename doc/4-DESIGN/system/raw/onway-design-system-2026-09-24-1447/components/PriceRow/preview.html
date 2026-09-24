@@ -1,0 +1,13 @@
+<!-- @dsCard group="Commerce" height=180 -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var PriceRow = window.Onway.PriceRow;
+  root.render(h("div", { style: { padding: "20px", maxWidth: "300px" } }, h(PriceRow, null)));
+</script>
+</body>
+</html>

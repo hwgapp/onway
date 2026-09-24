@@ -1,0 +1,13 @@
+<!-- @dsCard group="Feedback" height=320 subtitle="confirm / critical (reason required)" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Dialog = window.Onway.Dialog;
+  root.render(h("div", { style: { padding: "20px" } }, h(Dialog, { title: "Khoá tài khoản tài xế này?", critical: true }, "Tài xế sẽ không thể nhận chuyến cho đến khi được mở khoá lại.")));
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!-- @dsCard group="Feedback" height=140 subtitle="line / block, shimmer" -->
+<!doctype html>
+<html>
+<body>
+<div id="root"></div>
+<script>
+  var h = window.React.createElement;
+  var root = ReactDOM.createRoot(document.getElementById("root"));
+  var Skeleton = window.Onway.Skeleton;
+  root.render(h("div", { style: { padding: "20px", display: "flex", flexDirection: "column", gap: "10px", maxWidth: "300px" } },
+    h(Skeleton, { variant: "line" }),
+    h(Skeleton, { variant: "line", }),
+    h(Skeleton, { variant: "block" })
+  ));
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Cancellation / policy settings (S-018) — a *pattern*: `Select`/`Input` + confirm `Dialog` with a reason + `Timeline` audit trail, not yet packaged.
