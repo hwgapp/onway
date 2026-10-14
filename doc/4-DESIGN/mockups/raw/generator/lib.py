@@ -802,6 +802,9 @@ NAV = [
 NAV_BADGE = {"queue": 12, "autolock": 3, "finance": 8, "case": 17, "risk": 4}
 
 
+BOTTOM_FADE = '<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 40px; background: linear-gradient(rgba(255,255,255,0), #FFFFFF); pointer-events: none"></div>'
+
+
 def _admin_logo():
     tg = '<span style="' + TY["ovl"] + '; color: ' + C["t3"] + '; padding: 2px 6px; border: 1px solid ' + C["b2"] + '; border-radius: 4px">ADMIN</span>'
     return row(logo_img(24), tg, gap=10)
@@ -820,17 +823,26 @@ def sidebar(active, collapsed=False):
         return (f'<nav aria-label="Điều hướng quản trị" style="width: 72px; flex-shrink: 0; background: {C["card"]}; border-right: 1px solid {C["b2"]}; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 0 0 16px">'
                 f'<div style="height: 64px; display: flex; align-items: center">{mark_img(32)}</div>{items}</nav>')
     out = ""
+    y = 4
+    act_y = 0
     for sec, its in NAV:
-        out += f'<div style="{TY["ovl"]}; color: {C["t3"]}; padding: 12px 12px 4px">{sec}</div>'
+        y += 34 + 4
+        for ic, lab, key in its:
+            if key == active:
+                act_y = y
+            y += 44
+    shift = min(max(0, act_y - 420), max(0, y - 720)) if act_y + 60 > 720 else 0
+    for sec, its in NAV:
+        out += f'<div style="{TY["ovl"]}; color: {C["t3"]}; padding: 18px 12px 6px; flex-shrink: 0">{sec}</div>'
         for ic, lab, key in its:
             on = key == active
             b = badge(NAV_BADGE[key], "brand" if key in ("case", "autolock", "risk") else "ink") if key in NAV_BADGE else ""
-            out += (f'<a href="#" aria-current="{"page" if on else "false"}" style="display: flex; align-items: center; gap: 10px; height: 32px; padding: 0 12px; border-radius: 8px; text-decoration: none; '
+            out += (f'<a href="#" aria-current="{"page" if on else "false"}" style="display: flex; align-items: center; gap: 10px; height: 40px; flex-shrink: 0; padding: 0 12px; border-radius: 8px; text-decoration: none; '
                     f'background: {C["active"] if on else "transparent"}; color: {C["t1"] if on else C["t2"]}; font-size: 14px; font-weight: 400">{icon(ic, 18)}<span style="flex-grow: 1">{lab}</span>{b}</a>')
     return (f'<nav aria-label="Điều hướng quản trị" style="width: 248px; flex-shrink: 0; background: {C["card"]}; border-right: 1px solid {C["b2"]}; display: flex; flex-direction: column; box-sizing: border-box">'
             f'<div style="height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px 0 20px; border-bottom: 1px solid {C["b1"]}; flex-shrink: 0">'
             f'{_admin_logo()}'
-            f'{ibtn("panel-left", "Thu gọn thanh bên", "ghost", 32)}</div><div style="padding: 4px 12px 16px; display: flex; flex-direction: column; gap: 1px; overflow: hidden; flex-grow: 1">{out}</div>'
+            f'{ibtn("panel-left", "Thu gọn thanh bên", "ghost", 32)}</div><div style="position: relative; flex-grow: 1; min-height: 0"><div style="position: absolute; inset: 0; padding: 4px 12px 16px; display: flex; flex-direction: column; gap: 4px; overflow-y: auto"><div style="display: flex; flex-direction: column; gap: 4px; margin-top: -{shift}px">{out}</div></div>{"<div aria-hidden=" + chr(34) + "true" + chr(34) + " style=" + chr(34) + "position: absolute; left: 0; right: 0; top: 0; height: 32px; background: linear-gradient(#FFFFFF, rgba(255,255,255,0)); pointer-events: none" + chr(34) + "></div>" if shift else ""}{"" if shift and shift >= y - 720 else BOTTOM_FADE}</div>'
             f'<div style="border-top: 1px solid {C["b1"]}; padding: 12px 16px; display: flex; align-items: center; gap: 10px">{avatar("NL", 32)}<div style="flex-grow: 1; min-width: 0"><div style="{TY["lbl"]}">Ngọc Lan</div><div style="{TY["cap"]}; color: {C["t3"]}">Ops Admin · HCM</div></div></div></nav>')
 
 
