@@ -15,9 +15,9 @@ Quy ước:
 | --- | ---: | ---: | --- |
 | Customer App | 10 | 68 | Bao gồm auth/account, Ride, Food, chat, rating/report, history/case tracking và common states |
 | Driver App | 7 | 60 | Bao gồm onboarding, platform fee, online/jobs, Ride/Food jobs, chat, appeal, history/case tracking và settings |
-| Admin Portal | 6 | 77 | Bao gồm dashboard, region/polygon, policy, driver ops, finance proof, catalog, complaint/fraud, evidence/audit |
+| Admin Portal | 6 | 93 | Bao gồm dashboard, region/polygon, policy, driver ops, finance proof, catalog, complaint/fraud, evidence/audit |
 | Landing Web | 0 PRD screen riêng | 11 | Cần thiết cho public web/app download/driver acquisition/legal/contact |
-| Total | 23 counted by app usage | 216 | `S-015 Chat` dùng chung Customer + Driver nên PRD unique vẫn là 21 |
+| Total | 23 counted by app usage | 232 | `S-015 Chat` dùng chung Customer + Driver nên PRD unique vẫn là 21 |
 
 ## Customer App
 
@@ -238,6 +238,22 @@ Quy ước:
 | A-074 | Common | Notification template/config baseline | Screen | job/payment/chat/lock templates | F-034 |
 | A-075 | Common | Data/privacy request queue | Screen | export/delete requests, legal exceptions | Privacy |
 | A-076 | Common | Data/privacy request detail | Drawer | user refs, decision, audit | Privacy |
+| A-077 | Common | Live ops map | Screen | overview, stuck trip selected | Ops baseline, F-010 |
+| A-078 | Common | Ride trip list | Screen | all, stuck-state filter | F-010, UF-001 |
+| A-079 | Common | Ride trip detail | Screen | completed, payment disputed | F-010, UF-001, UF-005 |
+| A-080 | Common | Food order list | Screen | all, proposal/stuck filters | UF-002 |
+| A-081 | Common | Food order detail | Screen | change proposal pending, delivered | UF-002, UF-003 |
+| A-082 | S-021 | Case-linked chat transcript | Screen | read-only, preserved evidence | UF-007, F-023 |
+| A-083 | S-019 | Driver performance & ratings | Screen/Tab | metrics, rating distribution | F-020, F-022 |
+| A-084 | S-019 | Document requirement config | Screen | draft matrix by vehicle/service | F-002 |
+| A-085 | Common | Risk signal queue | Screen | reason codes, severity | F-022, device-risk |
+| A-086 | Common | Device identity detail | Drawer | linked accounts, decision | F-022, device-risk |
+| A-087 | Common | Platform fee refund | Screen/Drawer | queue, quarterly refund calc | F-003, BR-DRV-REFUND-001 |
+| A-088 | Common | Terms & consent versions | Screen | published, draft pending legal | Privacy, ConsentRecord |
+| A-089 | Common | App version / force update config | Screen | per app/platform | app-version |
+| A-090 | Common | Invite admin user | Dialog | role, scope, 2FA | RBAC |
+| A-091 | Common | Controlled data export | Dialog | scope, masking, reason | RBAC Export data |
+| A-092 | Common | Abuse limits & blocked identities | Screen | limits, unblock with reason | Abuse protection |
 
 ## Landing Web
 
@@ -304,3 +320,7 @@ Required output:
    - Critical Admin: A-005, A-010...A-039, A-040...A-059.
 
 Do not add these P0-excluded flows: wallet, cash/COD, payment gateway/escrow, Ride price negotiation/manual offer, Food delivery fee negotiation, tip, Merchant App, ads, referral rewards, Trust full, Mission, Community Truth or AI OCR production.
+
+## Admin Gap Analysis (2026-10-14)
+
+Bổ sung A-077…A-092 sau khi đối chiếu PRD/RBAC/Technical: giám sát chuyến & đơn (quyền "View Ride/Food monitoring", F-010, `tracking.update` cho admin), chat gắn hồ sơ (F-023), hiệu suất tài xế (F-020/F-022), cấu hình giấy tờ theo phương tiện (F-002), tín hiệu rủi ro & thiết bị (module device-risk), hoàn phí nền tảng theo quý (BR-DRV-REFUND-001, Finance Ops "refund records"), phiên bản đồng ý (ConsentRecord), cấu hình phiên bản app (module app-version), mời admin, xuất dữ liệu có kiểm soát (RBAC Export data), giới hạn chống lạm dụng (OTP/rate limit). A-007 được vẽ lại dạng bảng hàng đợi theo SLA.
