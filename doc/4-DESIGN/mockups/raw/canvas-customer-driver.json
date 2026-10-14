@@ -2,7 +2,7 @@
  "v": 3,
  "createdOnFiles": {
   "v": 1,
-  "at": "2026-09-24T08:54:14Z"
+  "at": "2026-10-14T01:43:44Z"
  },
  "title": "Onway UI Workflow — Customer & Driver",
  "launch": {
@@ -137,6 +137,22 @@
    "title": "C-011 - Privacy / consent settings - iPhone",
    "page": "customer",
    "is_interactive": true
+  },
+  "C-066.dc.html": {
+   "x": 5544,
+   "y": 1604,
+   "w": 1298,
+   "h": 884,
+   "title": "C-066 - Saved places / recent addresses - iPhone",
+   "page": "customer"
+  },
+  "C-067.dc.html": {
+   "x": 6922,
+   "y": 1604,
+   "w": 1298,
+   "h": 884,
+   "title": "C-067 - Data export/delete request - iPhone",
+   "page": "customer"
   },
   "C-012.dc.html": {
    "x": 0,
@@ -451,6 +467,33 @@
    "page": "customer",
    "is_interactive": true
   },
+  "C-050.dc.html": {
+   "x": 940,
+   "y": 13360,
+   "w": 390,
+   "h": 884,
+   "title": "C-050 - Active Food - delivering - iPhone",
+   "page": "customer",
+   "is_interactive": true
+  },
+  "C-051.dc.html": {
+   "x": 1410,
+   "y": 13360,
+   "w": 390,
+   "h": 884,
+   "title": "C-051 - Food delivered summary - iPhone",
+   "page": "customer",
+   "is_interactive": true
+  },
+  "C-065.dc.html": {
+   "x": 1880,
+   "y": 13360,
+   "w": 390,
+   "h": 884,
+   "title": "C-065 - Food customer cancel after driver ordered - iPhone",
+   "page": "customer",
+   "is_interactive": true
+  },
   "C-047.dc.html": {
    "x": 0,
    "y": 14704,
@@ -477,27 +520,9 @@
    "title": "C-049 - Food proposal timeout - iPhone",
    "page": "customer"
   },
-  "C-050.dc.html": {
-   "x": 0,
-   "y": 16048,
-   "w": 390,
-   "h": 884,
-   "title": "C-050 - Active Food - delivering - iPhone",
-   "page": "customer",
-   "is_interactive": true
-  },
-  "C-051.dc.html": {
-   "x": 470,
-   "y": 16048,
-   "w": 390,
-   "h": 884,
-   "title": "C-051 - Food delivered summary - iPhone",
-   "page": "customer",
-   "is_interactive": true
-  },
   "C-052.dc.html": {
    "x": 0,
-   "y": 17392,
+   "y": 16048,
    "w": 390,
    "h": 884,
    "title": "C-052 - Rating after Ride/Food - iPhone",
@@ -506,7 +531,7 @@
   },
   "C-053.dc.html": {
    "x": 470,
-   "y": 17392,
+   "y": 16048,
    "w": 844,
    "h": 884,
    "title": "C-053 - Complaint/report form - iPhone",
@@ -515,7 +540,7 @@
   },
   "C-054.dc.html": {
    "x": 1394,
-   "y": 17392,
+   "y": 16048,
    "w": 390,
    "h": 884,
    "title": "C-054 - Complaint submitted - iPhone",
@@ -524,7 +549,7 @@
   },
   "C-055.dc.html": {
    "x": 0,
-   "y": 18736,
+   "y": 17392,
    "w": 390,
    "h": 884,
    "title": "C-055 - Chat room - iPhone",
@@ -532,7 +557,7 @@
   },
   "C-056.dc.html": {
    "x": 470,
-   "y": 18736,
+   "y": 17392,
    "w": 390,
    "h": 884,
    "title": "C-056 - Chat image upload failed - iPhone",
@@ -540,7 +565,7 @@
   },
   "C-057.dc.html": {
    "x": 940,
-   "y": 18736,
+   "y": 17392,
    "w": 390,
    "h": 884,
    "title": "C-057 - Chat offline / reconnecting - iPhone",
@@ -548,15 +573,24 @@
   },
   "C-058.dc.html": {
    "x": 1410,
-   "y": 18736,
+   "y": 17392,
    "w": 390,
    "h": 884,
    "title": "C-058 - Chat closed / retention expired - iPhone",
    "page": "customer"
   },
+  "C-064.dc.html": {
+   "x": 1880,
+   "y": 17392,
+   "w": 844,
+   "h": 884,
+   "title": "C-064 - Direct call confirmation - iPhone",
+   "page": "customer",
+   "is_interactive": true
+  },
   "C-059.dc.html": {
    "x": 0,
-   "y": 20080,
+   "y": 18736,
    "w": 1752,
    "h": 884,
    "title": "C-059 - Activity / Ride & Food history - iPhone",
@@ -565,7 +599,7 @@
   },
   "C-060.dc.html": {
    "x": 1832,
-   "y": 20080,
+   "y": 18736,
    "w": 1298,
    "h": 884,
    "title": "C-060 - Ride history detail - iPhone",
@@ -574,7 +608,7 @@
   },
   "C-061.dc.html": {
    "x": 3210,
-   "y": 20080,
+   "y": 18736,
    "w": 1298,
    "h": 884,
    "title": "C-061 - Food order history detail - iPhone",
@@ -583,7 +617,7 @@
   },
   "C-062.dc.html": {
    "x": 4588,
-   "y": 20080,
+   "y": 18736,
    "w": 844,
    "h": 884,
    "title": "C-062 - Case / complaint list - iPhone",
@@ -592,44 +626,10 @@
   },
   "C-063.dc.html": {
    "x": 5512,
-   "y": 20080,
+   "y": 18736,
    "w": 844,
    "h": 884,
    "title": "C-063 - Case / complaint detail - iPhone",
-   "page": "customer"
-  },
-  "C-064.dc.html": {
-   "x": 0,
-   "y": 21424,
-   "w": 844,
-   "h": 884,
-   "title": "C-064 - Direct call confirmation - iPhone",
-   "page": "customer",
-   "is_interactive": true
-  },
-  "C-065.dc.html": {
-   "x": 0,
-   "y": 22768,
-   "w": 390,
-   "h": 884,
-   "title": "C-065 - Food customer cancel after driver ordered - iPhone",
-   "page": "customer",
-   "is_interactive": true
-  },
-  "C-066.dc.html": {
-   "x": 0,
-   "y": 24112,
-   "w": 1298,
-   "h": 884,
-   "title": "C-066 - Saved places / recent addresses - iPhone",
-   "page": "customer"
-  },
-  "C-067.dc.html": {
-   "x": 1378,
-   "y": 24112,
-   "w": 1298,
-   "h": 884,
-   "title": "C-067 - Data export/delete request - iPhone",
    "page": "customer"
   },
   "D-000.dc.html": {
@@ -658,211 +658,9 @@
    "page": "driver",
    "is_interactive": true
   },
-  "D-003.dc.html": {
-   "x": 0,
-   "y": 1604,
-   "w": 844,
-   "h": 884,
-   "title": "D-003 - Driver profile setup - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-004.dc.html": {
-   "x": 924,
-   "y": 1604,
-   "w": 1752,
-   "h": 884,
-   "title": "D-004 - Service / vehicle selection - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-005.dc.html": {
-   "x": 2756,
-   "y": 1604,
-   "w": 1298,
-   "h": 884,
-   "title": "D-005 - Document upload checklist - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-006.dc.html": {
-   "x": 4134,
-   "y": 1604,
-   "w": 1752,
-   "h": 884,
-   "title": "D-006 - Identity document capture - iPhone",
-   "page": "driver"
-  },
-  "D-007.dc.html": {
-   "x": 5966,
-   "y": 1604,
-   "w": 844,
-   "h": 884,
-   "title": "D-007 - Vehicle document upload - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-008.dc.html": {
-   "x": 6890,
-   "y": 1604,
-   "w": 844,
-   "h": 884,
-   "title": "D-008 - Bank/QR receiving info setup - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-009.dc.html": {
-   "x": 7814,
-   "y": 1604,
-   "w": 390,
-   "h": 884,
-   "title": "D-009 - Onboarding review pending - iPhone",
-   "page": "driver"
-  },
-  "D-010.dc.html": {
-   "x": 8284,
-   "y": 1604,
-   "w": 390,
-   "h": 884,
-   "title": "D-010 - Onboarding rejected - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-011.dc.html": {
-   "x": 0,
-   "y": 2608,
-   "w": 390,
-   "h": 884,
-   "title": "D-011 - Onboarding approved - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-012.dc.html": {
-   "x": 0,
-   "y": 3952,
-   "w": 1298,
-   "h": 884,
-   "title": "D-012 - Platform fee package - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-013.dc.html": {
-   "x": 1378,
-   "y": 3952,
-   "w": 1752,
-   "h": 884,
-   "title": "D-013 - Platform fee proof upload - iPhone",
-   "page": "driver"
-  },
-  "D-014.dc.html": {
-   "x": 3210,
-   "y": 3952,
-   "w": 1298,
-   "h": 884,
-   "title": "D-014 - Platform fee active/validity - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-015.dc.html": {
-   "x": 0,
-   "y": 5296,
-   "w": 1298,
-   "h": 884,
-   "title": "D-015 - Driver online home - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-016.dc.html": {
-   "x": 1378,
-   "y": 5296,
-   "w": 1298,
-   "h": 884,
-   "title": "D-016 - Service toggles / availability - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-017.dc.html": {
-   "x": 2756,
-   "y": 5296,
-   "w": 1752,
-   "h": 884,
-   "title": "D-017 - Job list / job cards - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-018.dc.html": {
-   "x": 4588,
-   "y": 5296,
-   "w": 844,
-   "h": 884,
-   "title": "D-018 - Region unavailable / no service - iPhone",
-   "page": "driver"
-  },
-  "D-019.dc.html": {
-   "x": 0,
-   "y": 6640,
-   "w": 844,
-   "h": 884,
-   "title": "D-019 - Ride offer received - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-020.dc.html": {
-   "x": 924,
-   "y": 6640,
-   "w": 390,
-   "h": 884,
-   "title": "D-020 - Ride offer accepted - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-021.dc.html": {
-   "x": 1394,
-   "y": 6640,
-   "w": 844,
-   "h": 884,
-   "title": "D-021 - Ride offer rejected / timeout - iPhone",
-   "page": "driver"
-  },
-  "D-022.dc.html": {
-   "x": 0,
-   "y": 7984,
-   "w": 390,
-   "h": 884,
-   "title": "D-022 - Ride pickup navigation - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-023.dc.html": {
-   "x": 470,
-   "y": 7984,
-   "w": 390,
-   "h": 884,
-   "title": "D-023 - Ride payment proof review - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-024.dc.html": {
-   "x": 940,
-   "y": 7984,
-   "w": 390,
-   "h": 884,
-   "title": "D-024 - Ride money not received - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-025.dc.html": {
-   "x": 1410,
-   "y": 7984,
-   "w": 844,
-   "h": 884,
-   "title": "D-025 - Ride arrived pickup - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
   "D-026.dc.html": {
    "x": 0,
-   "y": 9328,
+   "y": 1604,
    "w": 844,
    "h": 884,
    "title": "D-026 - Ride start trip - iPhone",
@@ -871,7 +669,7 @@
   },
   "D-027.dc.html": {
    "x": 924,
-   "y": 9328,
+   "y": 1604,
    "w": 390,
    "h": 884,
    "title": "D-027 - Ride in trip - iPhone",
@@ -880,7 +678,7 @@
   },
   "D-028.dc.html": {
    "x": 1394,
-   "y": 9328,
+   "y": 1604,
    "w": 390,
    "h": 884,
    "title": "D-028 - Ride completed - iPhone",
@@ -889,15 +687,258 @@
   },
   "D-029.dc.html": {
    "x": 1864,
-   "y": 9328,
+   "y": 1604,
    "w": 390,
    "h": 884,
    "title": "D-029 - Ride canceled / issue - iPhone",
    "page": "driver"
   },
-  "D-030.dc.html": {
+  "D-044.dc.html": {
+   "x": 0,
+   "y": 2948,
+   "w": 390,
+   "h": 884,
+   "title": "D-044 - Chat room - iPhone",
+   "page": "driver"
+  },
+  "D-045.dc.html": {
+   "x": 470,
+   "y": 2948,
+   "w": 390,
+   "h": 884,
+   "title": "D-045 - Chat image upload failed - iPhone",
+   "page": "driver"
+  },
+  "D-046.dc.html": {
+   "x": 940,
+   "y": 2948,
+   "w": 390,
+   "h": 884,
+   "title": "D-046 - Chat offline / reconnecting - iPhone",
+   "page": "driver"
+  },
+  "D-057.dc.html": {
+   "x": 1410,
+   "y": 2948,
+   "w": 844,
+   "h": 884,
+   "title": "D-057 - Direct call confirmation - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-058.dc.html": {
+   "x": 2334,
+   "y": 2948,
+   "w": 844,
+   "h": 884,
+   "title": "D-058 - Proof/evidence image viewer - iPhone",
+   "page": "driver"
+  },
+  "D-003.dc.html": {
+   "x": 0,
+   "y": 4292,
+   "w": 844,
+   "h": 884,
+   "title": "D-003 - Driver profile setup - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-004.dc.html": {
+   "x": 924,
+   "y": 4292,
+   "w": 1752,
+   "h": 884,
+   "title": "D-004 - Service / vehicle selection - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-005.dc.html": {
+   "x": 2756,
+   "y": 4292,
+   "w": 1298,
+   "h": 884,
+   "title": "D-005 - Document upload checklist - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-006.dc.html": {
+   "x": 4134,
+   "y": 4292,
+   "w": 1752,
+   "h": 884,
+   "title": "D-006 - Identity document capture - iPhone",
+   "page": "driver"
+  },
+  "D-007.dc.html": {
+   "x": 5966,
+   "y": 4292,
+   "w": 844,
+   "h": 884,
+   "title": "D-007 - Vehicle document upload - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-008.dc.html": {
+   "x": 6890,
+   "y": 4292,
+   "w": 844,
+   "h": 884,
+   "title": "D-008 - Bank/QR receiving info setup - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-009.dc.html": {
+   "x": 7814,
+   "y": 4292,
+   "w": 390,
+   "h": 884,
+   "title": "D-009 - Onboarding review pending - iPhone",
+   "page": "driver"
+  },
+  "D-010.dc.html": {
+   "x": 8284,
+   "y": 4292,
+   "w": 390,
+   "h": 884,
+   "title": "D-010 - Onboarding rejected - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-011.dc.html": {
+   "x": 0,
+   "y": 5296,
+   "w": 390,
+   "h": 884,
+   "title": "D-011 - Onboarding approved - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-012.dc.html": {
+   "x": 0,
+   "y": 6640,
+   "w": 1298,
+   "h": 884,
+   "title": "D-012 - Platform fee package - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-013.dc.html": {
+   "x": 1378,
+   "y": 6640,
+   "w": 1752,
+   "h": 884,
+   "title": "D-013 - Platform fee proof upload - iPhone",
+   "page": "driver"
+  },
+  "D-014.dc.html": {
+   "x": 3210,
+   "y": 6640,
+   "w": 1298,
+   "h": 884,
+   "title": "D-014 - Platform fee active/validity - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-015.dc.html": {
+   "x": 0,
+   "y": 7984,
+   "w": 1298,
+   "h": 884,
+   "title": "D-015 - Driver online home - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-016.dc.html": {
+   "x": 1378,
+   "y": 7984,
+   "w": 1298,
+   "h": 884,
+   "title": "D-016 - Service toggles / availability - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-017.dc.html": {
+   "x": 2756,
+   "y": 7984,
+   "w": 1752,
+   "h": 884,
+   "title": "D-017 - Job list / job cards - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-018.dc.html": {
+   "x": 4588,
+   "y": 7984,
+   "w": 844,
+   "h": 884,
+   "title": "D-018 - Region unavailable / no service - iPhone",
+   "page": "driver"
+  },
+  "D-019.dc.html": {
+   "x": 0,
+   "y": 9328,
+   "w": 844,
+   "h": 884,
+   "title": "D-019 - Ride offer received - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-020.dc.html": {
+   "x": 924,
+   "y": 9328,
+   "w": 390,
+   "h": 884,
+   "title": "D-020 - Ride offer accepted - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-021.dc.html": {
+   "x": 1394,
+   "y": 9328,
+   "w": 844,
+   "h": 884,
+   "title": "D-021 - Ride offer rejected / timeout - iPhone",
+   "page": "driver"
+  },
+  "D-022.dc.html": {
    "x": 0,
    "y": 10672,
+   "w": 390,
+   "h": 884,
+   "title": "D-022 - Ride pickup navigation - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-023.dc.html": {
+   "x": 470,
+   "y": 10672,
+   "w": 390,
+   "h": 884,
+   "title": "D-023 - Ride payment proof review - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-024.dc.html": {
+   "x": 940,
+   "y": 10672,
+   "w": 390,
+   "h": 884,
+   "title": "D-024 - Ride money not received - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-025.dc.html": {
+   "x": 1410,
+   "y": 10672,
+   "w": 844,
+   "h": 884,
+   "title": "D-025 - Ride arrived pickup - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-030.dc.html": {
+   "x": 0,
+   "y": 12016,
    "w": 390,
    "h": 884,
    "title": "D-030 - Food offer received - iPhone",
@@ -906,7 +947,7 @@
   },
   "D-031.dc.html": {
    "x": 470,
-   "y": 10672,
+   "y": 12016,
    "w": 390,
    "h": 884,
    "title": "D-031 - Food accepted / go to outlet - iPhone",
@@ -915,7 +956,7 @@
   },
   "D-032.dc.html": {
    "x": 940,
-   "y": 10672,
+   "y": 12016,
    "w": 390,
    "h": 884,
    "title": "D-032 - Food payment proof review - iPhone",
@@ -924,7 +965,7 @@
   },
   "D-033.dc.html": {
    "x": 1410,
-   "y": 10672,
+   "y": 12016,
    "w": 390,
    "h": 884,
    "title": "D-033 - Food money not received - iPhone",
@@ -933,7 +974,7 @@
   },
   "D-034.dc.html": {
    "x": 0,
-   "y": 12016,
+   "y": 13360,
    "w": 390,
    "h": 884,
    "title": "D-034 - At outlet / order items - iPhone",
@@ -942,7 +983,7 @@
   },
   "D-035.dc.html": {
    "x": 470,
-   "y": 12016,
+   "y": 13360,
    "w": 390,
    "h": 884,
    "title": "D-035 - Food change needed form - iPhone",
@@ -951,7 +992,7 @@
   },
   "D-036.dc.html": {
    "x": 940,
-   "y": 12016,
+   "y": 13360,
    "w": 390,
    "h": 884,
    "title": "D-036 - Food proposal waiting customer - iPhone",
@@ -959,7 +1000,7 @@
   },
   "D-037.dc.html": {
    "x": 1410,
-   "y": 12016,
+   "y": 13360,
    "w": 390,
    "h": 884,
    "title": "D-037 - Proposal accepted - iPhone",
@@ -968,7 +1009,7 @@
   },
   "D-038.dc.html": {
    "x": 1880,
-   "y": 12016,
+   "y": 13360,
    "w": 844,
    "h": 884,
    "title": "D-038 - Proposal rejected / timeout - iPhone",
@@ -977,7 +1018,7 @@
   },
   "D-039.dc.html": {
    "x": 2804,
-   "y": 12016,
+   "y": 13360,
    "w": 390,
    "h": 884,
    "title": "D-039 - Supplemental payment pending - iPhone",
@@ -985,7 +1026,7 @@
   },
   "D-040.dc.html": {
    "x": 0,
-   "y": 13360,
+   "y": 14704,
    "w": 390,
    "h": 884,
    "title": "D-040 - Food picked up - iPhone",
@@ -994,7 +1035,7 @@
   },
   "D-041.dc.html": {
    "x": 470,
-   "y": 13360,
+   "y": 14704,
    "w": 390,
    "h": 884,
    "title": "D-041 - Food delivering - iPhone",
@@ -1003,7 +1044,7 @@
   },
   "D-042.dc.html": {
    "x": 940,
-   "y": 13360,
+   "y": 14704,
    "w": 390,
    "h": 884,
    "title": "D-042 - Food delivered - iPhone",
@@ -1012,34 +1053,10 @@
   },
   "D-043.dc.html": {
    "x": 1410,
-   "y": 13360,
+   "y": 14704,
    "w": 844,
    "h": 884,
    "title": "D-043 - Food issue/cancel reason - iPhone",
-   "page": "driver"
-  },
-  "D-044.dc.html": {
-   "x": 0,
-   "y": 14704,
-   "w": 390,
-   "h": 884,
-   "title": "D-044 - Chat room - iPhone",
-   "page": "driver"
-  },
-  "D-045.dc.html": {
-   "x": 470,
-   "y": 14704,
-   "w": 390,
-   "h": 884,
-   "title": "D-045 - Chat image upload failed - iPhone",
-   "page": "driver"
-  },
-  "D-046.dc.html": {
-   "x": 940,
-   "y": 14704,
-   "w": 390,
-   "h": 884,
-   "title": "D-046 - Chat offline / reconnecting - iPhone",
    "page": "driver"
   },
   "D-047.dc.html": {
@@ -1057,6 +1074,23 @@
    "w": 844,
    "h": 884,
    "title": "D-048 - Lock appeal form - iPhone",
+   "page": "driver"
+  },
+  "D-055.dc.html": {
+   "x": 1394,
+   "y": 16048,
+   "w": 844,
+   "h": 884,
+   "title": "D-055 - Case / complaint list - iPhone",
+   "page": "driver",
+   "is_interactive": true
+  },
+  "D-056.dc.html": {
+   "x": 2318,
+   "y": 16048,
+   "w": 390,
+   "h": 884,
+   "title": "D-056 - Case / complaint detail - iPhone",
    "page": "driver"
   },
   "D-049.dc.html": {
@@ -1112,43 +1146,9 @@
    "page": "driver",
    "is_interactive": true
   },
-  "D-055.dc.html": {
-   "x": 0,
-   "y": 18736,
-   "w": 844,
-   "h": 884,
-   "title": "D-055 - Case / complaint list - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-056.dc.html": {
-   "x": 924,
-   "y": 18736,
-   "w": 390,
-   "h": 884,
-   "title": "D-056 - Case / complaint detail - iPhone",
-   "page": "driver"
-  },
-  "D-057.dc.html": {
-   "x": 0,
-   "y": 20080,
-   "w": 844,
-   "h": 884,
-   "title": "D-057 - Direct call confirmation - iPhone",
-   "page": "driver",
-   "is_interactive": true
-  },
-  "D-058.dc.html": {
-   "x": 924,
-   "y": 20080,
-   "w": 844,
-   "h": 884,
-   "title": "D-058 - Proof/evidence image viewer - iPhone",
-   "page": "driver"
-  },
   "D-059.dc.html": {
-   "x": 0,
-   "y": 21424,
+   "x": 5090,
+   "y": 17392,
    "w": 390,
    "h": 884,
    "title": "D-059 - Privacy / consent settings - iPhone",
@@ -1169,6 +1169,8 @@
   "C-009.dc.html",
   "C-010.dc.html",
   "C-011.dc.html",
+  "C-066.dc.html",
+  "C-067.dc.html",
   "C-012.dc.html",
   "C-013.dc.html",
   "C-014.dc.html",
@@ -1204,11 +1206,12 @@
   "C-044.dc.html",
   "C-045.dc.html",
   "C-046.dc.html",
+  "C-050.dc.html",
+  "C-051.dc.html",
+  "C-065.dc.html",
   "C-047.dc.html",
   "C-048.dc.html",
   "C-049.dc.html",
-  "C-050.dc.html",
-  "C-051.dc.html",
   "C-052.dc.html",
   "C-053.dc.html",
   "C-054.dc.html",
@@ -1216,18 +1219,24 @@
   "C-056.dc.html",
   "C-057.dc.html",
   "C-058.dc.html",
+  "C-064.dc.html",
   "C-059.dc.html",
   "C-060.dc.html",
   "C-061.dc.html",
   "C-062.dc.html",
   "C-063.dc.html",
-  "C-064.dc.html",
-  "C-065.dc.html",
-  "C-066.dc.html",
-  "C-067.dc.html",
   "D-000.dc.html",
   "D-001.dc.html",
   "D-002.dc.html",
+  "D-026.dc.html",
+  "D-027.dc.html",
+  "D-028.dc.html",
+  "D-029.dc.html",
+  "D-044.dc.html",
+  "D-045.dc.html",
+  "D-046.dc.html",
+  "D-057.dc.html",
+  "D-058.dc.html",
   "D-003.dc.html",
   "D-004.dc.html",
   "D-005.dc.html",
@@ -1251,10 +1260,6 @@
   "D-023.dc.html",
   "D-024.dc.html",
   "D-025.dc.html",
-  "D-026.dc.html",
-  "D-027.dc.html",
-  "D-028.dc.html",
-  "D-029.dc.html",
   "D-030.dc.html",
   "D-031.dc.html",
   "D-032.dc.html",
@@ -1269,21 +1274,16 @@
   "D-041.dc.html",
   "D-042.dc.html",
   "D-043.dc.html",
-  "D-044.dc.html",
-  "D-045.dc.html",
-  "D-046.dc.html",
   "D-047.dc.html",
   "D-048.dc.html",
+  "D-055.dc.html",
+  "D-056.dc.html",
   "D-049.dc.html",
   "D-050.dc.html",
   "D-051.dc.html",
   "D-052.dc.html",
   "D-053.dc.html",
   "D-054.dc.html",
-  "D-055.dc.html",
-  "D-056.dc.html",
-  "D-057.dc.html",
-  "D-058.dc.html",
   "D-059.dc.html"
  ],
  "notes": {
@@ -1378,7 +1378,7 @@
   "Cg11": {
    "x": 0,
    "y": 15788,
-   "text": "Đặt món · Theo dõi đơn",
+   "text": "Đánh giá & khiếu nại",
    "kind": "title1",
    "page": "customer",
    "maxW": 6000
@@ -1386,7 +1386,7 @@
   "Cg12": {
    "x": 0,
    "y": 17132,
-   "text": "Đánh giá & khiếu nại",
+   "text": "Chat & gọi điện",
    "kind": "title1",
    "page": "customer",
    "maxW": 6000
@@ -1394,39 +1394,7 @@
   "Cg13": {
    "x": 0,
    "y": 18476,
-   "text": "Chat & gọi điện",
-   "kind": "title1",
-   "page": "customer",
-   "maxW": 6000
-  },
-  "Cg14": {
-   "x": 0,
-   "y": 19820,
    "text": "Lịch sử & khiếu nại",
-   "kind": "title1",
-   "page": "customer",
-   "maxW": 6000
-  },
-  "Cg15": {
-   "x": 0,
-   "y": 21164,
-   "text": "Chat & gọi điện",
-   "kind": "title1",
-   "page": "customer",
-   "maxW": 6000
-  },
-  "Cg16": {
-   "x": 0,
-   "y": 22508,
-   "text": "Đặt món · Theo dõi đơn",
-   "kind": "title1",
-   "page": "customer",
-   "maxW": 6000
-  },
-  "Cg17": {
-   "x": 0,
-   "y": 23852,
-   "text": "Trang chủ & tài khoản",
    "kind": "title1",
    "page": "customer",
    "maxW": 6000
@@ -1442,23 +1410,23 @@
   "Dg1": {
    "x": 0,
    "y": 1344,
-   "text": "Đăng ký tài xế",
+   "text": "Đi xe · Trong chuyến",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
   },
   "Dg2": {
    "x": 0,
-   "y": 3692,
-   "text": "Phí nền tảng",
+   "y": 2688,
+   "text": "Chat & gọi điện",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
   },
   "Dg3": {
    "x": 0,
-   "y": 5036,
-   "text": "Trực tuyến & nhận việc",
+   "y": 4032,
+   "text": "Đăng ký tài xế",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
@@ -1466,7 +1434,7 @@
   "Dg4": {
    "x": 0,
    "y": 6380,
-   "text": "Đi xe · Nhận chuyến",
+   "text": "Phí nền tảng",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
@@ -1474,7 +1442,7 @@
   "Dg5": {
    "x": 0,
    "y": 7724,
-   "text": "Đi xe · Đón khách & thanh toán",
+   "text": "Trực tuyến & nhận việc",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
@@ -1482,7 +1450,7 @@
   "Dg6": {
    "x": 0,
    "y": 9068,
-   "text": "Đi xe · Trong chuyến",
+   "text": "Đi xe · Nhận chuyến",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
@@ -1490,7 +1458,7 @@
   "Dg7": {
    "x": 0,
    "y": 10412,
-   "text": "Đặt món · Nhận đơn",
+   "text": "Đi xe · Đón khách & thanh toán",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
@@ -1498,7 +1466,7 @@
   "Dg8": {
    "x": 0,
    "y": 11756,
-   "text": "Đặt món · Tại quán",
+   "text": "Đặt món · Nhận đơn",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
@@ -1506,7 +1474,7 @@
   "Dg9": {
    "x": 0,
    "y": 13100,
-   "text": "Đặt món · Giao món",
+   "text": "Đặt món · Tại quán",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
@@ -1514,7 +1482,7 @@
   "Dg10": {
    "x": 0,
    "y": 14444,
-   "text": "Chat & gọi điện",
+   "text": "Đặt món · Giao món",
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
@@ -1534,30 +1502,6 @@
    "kind": "title1",
    "page": "driver",
    "maxW": 6000
-  },
-  "Dg13": {
-   "x": 0,
-   "y": 18476,
-   "text": "Khoá tài khoản & kháng nghị",
-   "kind": "title1",
-   "page": "driver",
-   "maxW": 6000
-  },
-  "Dg14": {
-   "x": 0,
-   "y": 19820,
-   "text": "Chat & gọi điện",
-   "kind": "title1",
-   "page": "driver",
-   "maxW": 6000
-  },
-  "Dg15": {
-   "x": 0,
-   "y": 21164,
-   "text": "Tài khoản & hỗ trợ",
-   "kind": "title1",
-   "page": "driver",
-   "maxW": 6000
   }
  },
  "designSystems": [
@@ -1566,7 +1510,7 @@
    "namespace": "onway",
    "artifact": "https://claude.ai/code/artifact/3a7f770f-a60c-4755-85f8-ced071f0c577",
    "version": "1790235852-eb26",
-   "copiedAt": "2026-09-24T08:54:14Z"
+   "copiedAt": "2026-10-14T01:43:44Z"
   }
  ]
 }

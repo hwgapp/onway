@@ -131,7 +131,7 @@ readme = f"""# UI Workflow Package
 
 Output UI Workflow cho P0 theo `../07-claude-design-output-contract.md` và `../08-full-app-screen-frame-map.md`.
 
-- Canvas: [Customer & Driver]({CANVAS_URL}) và [Admin & Landing]({CANVAS_URL2}) — {len(man)} frame, {sum(len(f['states']) for f in man)} trạng thái (Customer 68, Driver 60, Admin 77, Landing 11).
+- Canvas: [Customer & Driver]({CANVAS_URL}) và [Admin & Landing]({CANVAS_URL2}) — {len(man)} frame, {sum(len(f['states']) for f in man)} trạng thái (Customer 68, Driver 60, Admin 93, Landing 11).
 - `screen-map.md`: Frame ID → artboard, trạng thái đã vẽ.
 - `flow-map.md`: UF-001…UF-007 và luồng phụ.
 - `state-coverage.md`: default/loading/empty/error/offline/no permission/locked/success theo frame.

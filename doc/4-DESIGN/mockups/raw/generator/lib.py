@@ -792,14 +792,14 @@ def mark_img(s=40, white=False):
 # ---- admin scaffolding ----
 AW, AH = 1440, 900
 NAV = [
-    ("VẬN HÀNH", [("dashboard", "Tổng quan", "dash"), ("inbox", "Hàng đợi vận hành", "queue"), ("activity", "Sức khoẻ hệ thống", "health")]),
-    ("KHU VỰC & CHÍNH SÁCH", [("map", "Khu vực & polygon", "region"), ("sliders", "Giá & chính sách", "policy")]),
-    ("TÀI XẾ & KHÁCH", [("users", "Tài xế", "driver"), ("lock", "Khoá tự động", "autolock"), ("banknote", "Duyệt phí nền tảng", "finance"), ("user", "Khách hàng", "customer")]),
+    ("VẬN HÀNH", [("dashboard", "Tổng quan", "dash"), ("map", "Bản đồ trực tiếp", "live"), ("route", "Chuyến & đơn", "trips"), ("inbox", "Hàng đợi vận hành", "queue"), ("activity", "Sức khoẻ hệ thống", "health")]),
+    ("KHU VỰC & CHÍNH SÁCH", [("layers", "Khu vực & polygon", "region"), ("sliders", "Giá & chính sách", "policy")]),
+    ("TÀI XẾ & KHÁCH", [("users", "Tài xế", "driver"), ("lock", "Khoá tự động", "autolock"), ("banknote", "Phí nền tảng & hoàn phí", "finance"), ("user", "Khách hàng", "customer")]),
     ("FOOD", [("store", "Danh mục món", "catalog")]),
-    ("RỦI RO", [("scale", "Khiếu nại & gian lận", "case"), ("history", "Nhật ký audit", "audit"), ("shield", "Yêu cầu dữ liệu", "privacy")]),
-    ("HỆ THỐNG", [("key", "Quản trị viên & quyền", "rbac"), ("bell", "Mẫu thông báo", "notif"), ("settings", "Cài đặt", "settings")]),
+    ("RỦI RO", [("scale", "Khiếu nại & gian lận", "case"), ("shield-alert", "Tín hiệu rủi ro", "risk"), ("history", "Nhật ký audit", "audit"), ("shield", "Dữ liệu & đồng ý", "privacy")]),
+    ("HỆ THỐNG", [("key", "Quản trị viên & quyền", "rbac"), ("bell", "Mẫu thông báo", "notif"), ("smartphone", "Phiên bản ứng dụng", "appver"), ("settings", "Cài đặt", "settings")]),
 ]
-NAV_BADGE = {"queue": 12, "autolock": 3, "finance": 8, "case": 17}
+NAV_BADGE = {"queue": 12, "autolock": 3, "finance": 8, "case": 17, "risk": 4}
 
 
 def _admin_logo():
@@ -821,11 +821,11 @@ def sidebar(active, collapsed=False):
                 f'<div style="height: 64px; display: flex; align-items: center">{mark_img(32)}</div>{items}</nav>')
     out = ""
     for sec, its in NAV:
-        out += f'<div style="{TY["ovl"]}; color: {C["t3"]}; padding: 14px 12px 6px">{sec}</div>'
+        out += f'<div style="{TY["ovl"]}; color: {C["t3"]}; padding: 12px 12px 4px">{sec}</div>'
         for ic, lab, key in its:
             on = key == active
-            b = badge(NAV_BADGE[key], "brand" if key in ("case", "autolock") else "ink") if key in NAV_BADGE else ""
-            out += (f'<a href="#" aria-current="{"page" if on else "false"}" style="display: flex; align-items: center; gap: 10px; height: 36px; padding: 0 12px; border-radius: 8px; text-decoration: none; '
+            b = badge(NAV_BADGE[key], "brand" if key in ("case", "autolock", "risk") else "ink") if key in NAV_BADGE else ""
+            out += (f'<a href="#" aria-current="{"page" if on else "false"}" style="display: flex; align-items: center; gap: 10px; height: 32px; padding: 0 12px; border-radius: 8px; text-decoration: none; '
                     f'background: {C["active"] if on else "transparent"}; color: {C["t1"] if on else C["t2"]}; font-size: 14px; font-weight: {600 if on else 500}">{icon(ic, 18)}<span style="flex-grow: 1">{lab}</span>{b}</a>')
     return (f'<nav aria-label="Điều hướng quản trị" style="width: 248px; flex-shrink: 0; background: {C["card"]}; border-right: 1px solid {C["b2"]}; display: flex; flex-direction: column; box-sizing: border-box">'
             f'<div style="height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px 0 20px; border-bottom: 1px solid {C["b1"]}; flex-shrink: 0">'

@@ -19,7 +19,7 @@
 | Landing | 1440 rộng (chiều cao theo section); L-001 có thêm bản mobile 390×900 |
 | Ngôn ngữ | Tiếng Việt; tiền tệ dạng `48.000đ` (JetBrains Mono) |
 | Theme | Sáng cho cả 3 app (theme tối Driver là P1) |
-| Prototype | 216 artboard; CTA chính dùng link Play sang frame kế tiếp |
+| Prototype | 232 artboard; CTA chính dùng link Play sang frame kế tiếp |
 
 ## Tài sản dùng
 

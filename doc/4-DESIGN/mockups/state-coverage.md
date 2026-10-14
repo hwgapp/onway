@@ -139,7 +139,7 @@ Yes = có ít nhất một trạng thái tương ứng được vẽ trong artbo
 | A-004 | Yes | — | Yes | — | — | — | — | — | Có kết quả; Không có kết quả |
 | A-005 | Yes | Yes | — | Yes | — | — | — | — | Mặc định; Đang tải; Lỗi |
 | A-006 | Yes | — | — | — | — | — | — | — | Ride/Food & rủi ro |
-| A-007 | Yes | — | Yes | — | — | — | — | — | Có việc tồn; Không có việc |
+| A-007 | Yes | — | Yes | — | — | — | — | — | Có việc tồn (bảng theo SLA); Không có việc |
 | A-008 | Yes | — | Yes | — | — | — | — | — | Danh sách; Trống |
 | A-009 | Yes | — | Yes | — | — | — | — | — | Chưa có dữ liệu |
 | A-010 | Yes | — | Yes | — | — | — | — | — | Active / Paused / Planned; Trống |
@@ -209,6 +209,22 @@ Yes = có ít nhất một trạng thái tương ứng được vẽ trong artbo
 | A-074 | Yes | — | — | — | — | — | Yes | — | Mẫu việc/thanh toán/chat/khoá |
 | A-075 | Yes | — | — | — | — | — | — | — | Xuất/xoá, ngoại lệ |
 | A-076 | Yes | — | — | — | — | — | — | — | Quyết định & audit |
+| A-077 | Yes | — | — | — | — | — | — | — | Tổng quan; Chọn chuyến bị kẹt |
+| A-078 | Yes | — | — | — | — | — | — | — | Tất cả; Lọc kẹt trạng thái |
+| A-079 | Yes | — | — | — | — | — | — | Yes | Hoàn thành; Tranh chấp thanh toán |
+| A-080 | Yes | — | — | — | — | — | — | — | Tất cả |
+| A-081 | Yes | — | — | — | — | — | — | Yes | Đang có đề xuất; Đã giao |
+| A-082 | Yes | — | — | — | — | — | — | — | Chỉ đọc, gắn hồ sơ |
+| A-083 | Yes | — | — | — | — | — | — | — | Hiệu suất & đánh giá |
+| A-084 | Yes | — | — | — | — | — | — | — | Ma trận giấy tờ |
+| A-085 | Yes | — | — | — | — | — | — | — | Danh sách tín hiệu |
+| A-086 | Yes | — | — | — | — | — | — | — | Tài khoản liên kết & quyết định |
+| A-087 | Yes | — | — | — | — | — | — | — | Hàng đợi; Chi tiết & tính hoàn |
+| A-088 | Yes | — | — | — | — | — | — | — | Phiên bản & xuất bản |
+| A-089 | Yes | — | — | — | — | — | — | — | Cấu hình theo app/nền tảng |
+| A-090 | Yes | — | — | — | — | — | — | — | Mời có vai trò & phạm vi |
+| A-091 | Yes | — | — | — | — | — | — | — | Phạm vi, che dữ liệu, lý do |
+| A-092 | Yes | — | — | — | — | — | Yes | — | Giới hạn & gỡ chặn |
 | L-001 | Yes | — | — | — | — | — | — | — | Desktop; Mobile |
 | L-002 | Yes | — | — | — | — | — | — | — | Đi xe + Đặt món |
 | L-003 | Yes | — | — | — | — | — | — | — | 0% hoa hồng + gói ra mắt |

@@ -1,5 +1,5 @@
 import json, os, re, datetime
-import customer, driver, admin, landing
+import customer, driver, admin, landing, admin_ext
 from reg import REG
 from lib import *
 
@@ -71,7 +71,7 @@ def cover(keep="CDAL", other_url=None):
     tones = row(*[pill(s) for s in ["matching", "arrived", "inProgress", "completed", "disputed", "cancelled"]], gap=8)
     root = (f'<div style="width: {W}px; height: {H}px; box-sizing: border-box; padding: 64px; background: #FFFFFF; font-family: {FONT}; color: {C["t1"]}; display: flex; flex-direction: column; gap: 32px; border: 1px solid {C["b2"]}">'
             + row(col(logo_img(40), f'<h1 style="margin: 16px 0 0; {TY["dlg"]}">UI Workflow — P0</h1>',
-                      txt("216 frame · 371 trạng thái · theo 08-full-app-screen-frame-map.md và Onway Design System. Nội dung tiếng Việt; không có ví, tiền mặt, COD, cổng thanh toán hay thương lượng giá.", "blg", C["t2"], extra="max-width: 980px"), gap=6),
+                      txt("232 frame · 392 trạng thái · theo 08-full-app-screen-frame-map.md và Onway Design System. Nội dung tiếng Việt; không có ví, tiền mặt, COD, cổng thanh toán hay thương lượng giá.", "blg", C["t2"], extra="max-width: 980px"), gap=6),
                   spacer(), col(txt("Cập nhật 24/09/2026", "cap", C["t3"]), tones, gap=8, extra="align-items: flex-end"), align="flex-end")
             + row(appc, gap=16) + other
             + f'<div><div style="{TY["ovl"]}; color: {C["t3"]}; margin-bottom: 4px">Luồng chính (bấm mã frame để mở — chế độ Play; mã màu xám nằm ở canvas còn lại)</div>{flows}</div>'
@@ -97,6 +97,13 @@ def main(keep="CDAL", outdir=None, title="Onway UI Workflow", other_url=None):
     manifest = []
     # group frames by page then group
     by_page = {}
+    gorder = []
+    for f in REG:
+        if f["group"] not in gorder:
+            gorder.append(f["group"])
+    gorder.remove("Giám sát chuyến & đơn"); gorder.insert(gorder.index("Tổng quan") + 1, "Giám sát chuyến & đơn")
+    gorder.remove("Rủi ro & thiết bị"); gorder.insert(gorder.index("Khiếu nại & gian lận") + 1, "Rủi ro & thiết bị")
+    REG.sort(key=lambda f: ("CDAL".index(f["id"][0]), gorder.index(f["group"]), f["id"]))
     for f in REG:
         p = f["id"][0]
         if p not in keep:

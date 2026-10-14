@@ -1613,7 +1613,7 @@
   "group": "Tổng quan",
   "platform": "Web 1440",
   "states": [
-   "Có việc tồn",
+   "Có việc tồn (bảng theo SLA)",
    "Không có việc"
   ],
   "file": "A-007.dc.html",
@@ -2404,6 +2404,187 @@
    "Quyết định & audit"
   ],
   "file": "A-076.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-077",
+  "name": "Live ops map",
+  "group": "Giám sát chuyến & đơn",
+  "platform": "Web 1440",
+  "states": [
+   "Tổng quan",
+   "Chọn chuyến bị kẹt"
+  ],
+  "file": "A-077.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-078",
+  "name": "Ride trip list",
+  "group": "Giám sát chuyến & đơn",
+  "platform": "Web 1440",
+  "states": [
+   "Tất cả",
+   "Lọc kẹt trạng thái"
+  ],
+  "file": "A-078.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-079",
+  "name": "Ride trip detail",
+  "group": "Giám sát chuyến & đơn",
+  "platform": "Web 1440",
+  "states": [
+   "Hoàn thành",
+   "Tranh chấp thanh toán"
+  ],
+  "file": "A-079.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-080",
+  "name": "Food order list",
+  "group": "Giám sát chuyến & đơn",
+  "platform": "Web 1440",
+  "states": [
+   "Tất cả"
+  ],
+  "file": "A-080.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-081",
+  "name": "Food order detail",
+  "group": "Giám sát chuyến & đơn",
+  "platform": "Web 1440",
+  "states": [
+   "Đang có đề xuất",
+   "Đã giao"
+  ],
+  "file": "A-081.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-082",
+  "name": "Case-linked chat transcript",
+  "group": "Giám sát chuyến & đơn",
+  "platform": "Web 1440",
+  "states": [
+   "Chỉ đọc, gắn hồ sơ"
+  ],
+  "file": "A-082.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-083",
+  "name": "Driver performance & ratings",
+  "group": "Tài xế · Duyệt & quản lý",
+  "platform": "Web 1440",
+  "states": [
+   "Hiệu suất & đánh giá"
+  ],
+  "file": "A-083.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-084",
+  "name": "Document requirement config",
+  "group": "Tài xế · Duyệt & quản lý",
+  "platform": "Web 1440",
+  "states": [
+   "Ma trận giấy tờ"
+  ],
+  "file": "A-084.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-085",
+  "name": "Risk signal queue",
+  "group": "Rủi ro & thiết bị",
+  "platform": "Web 1440",
+  "states": [
+   "Danh sách tín hiệu"
+  ],
+  "file": "A-085.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-086",
+  "name": "Device identity detail",
+  "group": "Rủi ro & thiết bị",
+  "platform": "Web 1440",
+  "states": [
+   "Tài khoản liên kết & quyết định"
+  ],
+  "file": "A-086.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-087",
+  "name": "Platform fee refund",
+  "group": "Tài chính & khách hàng",
+  "platform": "Web 1440",
+  "states": [
+   "Hàng đợi",
+   "Chi tiết & tính hoàn"
+  ],
+  "file": "A-087.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-088",
+  "name": "Terms & consent versions",
+  "group": "Tài chính & khách hàng",
+  "platform": "Web 1440",
+  "states": [
+   "Phiên bản & xuất bản"
+  ],
+  "file": "A-088.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-089",
+  "name": "App version / force update config",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Cấu hình theo app/nền tảng"
+  ],
+  "file": "A-089.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-090",
+  "name": "Invite admin user",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Mời có vai trò & phạm vi"
+  ],
+  "file": "A-090.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-091",
+  "name": "Controlled data export",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Phạm vi, che dữ liệu, lý do"
+  ],
+  "file": "A-091.dc.html",
+  "page": "admin"
+ },
+ {
+  "id": "A-092",
+  "name": "Abuse limits & blocked identities",
+  "group": "Bằng chứng, audit & hệ thống",
+  "platform": "Web 1440",
+  "states": [
+   "Giới hạn & gỡ chặn"
+  ],
+  "file": "A-092.dc.html",
   "page": "admin"
  },
  {

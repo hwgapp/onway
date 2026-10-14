@@ -141,7 +141,7 @@ Tên export theo `07-claude-design-output-contract.md`: `<Frame ID> - <Frame Nam
 | A-004 | Common | Global search / command palette | `A-004 - Global search / command palette - Web 1440` · `A-004.dc.html` | Admin & Landing | Web 1440 | Admin baseline | Có kết quả, Không có kết quả | Ready |
 | A-005 | S-016 | Dashboard overview | `A-005 - Dashboard overview - Web 1440` · `A-005.dc.html` | Admin & Landing | Web 1440 | Ops baseline | Mặc định, Đang tải, Lỗi | Ready |
 | A-006 | S-016 | Marketplace health widgets | `A-006 - Marketplace health widgets - Web 1440` · `A-006.dc.html` | Admin & Landing | Web 1440 | Ops baseline | Ride/Food & rủi ro | Ready |
-| A-007 | S-016 | Live ops queue | `A-007 - Live ops queue - Web 1440` · `A-007.dc.html` | Admin & Landing | Web 1440 | Ops baseline | Có việc tồn, Không có việc | Ready |
+| A-007 | S-016 | Live ops queue | `A-007 - Live ops queue - Web 1440` · `A-007.dc.html` | Admin & Landing | Web 1440 | Ops baseline | Có việc tồn (bảng theo SLA), Không có việc | Ready |
 | A-008 | S-016 | Recent activity/audit preview | `A-008 - Recent activity/audit preview - Web 1440` · `A-008.dc.html` | Admin & Landing | Web 1440 | Ops baseline | Danh sách, Trống | Ready |
 | A-009 | S-016 | Dashboard empty/new launch | `A-009 - Dashboard empty/new launch - Web 1440` · `A-009.dc.html` | Admin & Landing | Web 1440 | Ops baseline | Chưa có dữ liệu | Ready |
 | A-010 | S-017 | Region list | `A-010 - Region list - Web 1440` · `A-010.dc.html` | Admin & Landing | Web 1440 | UF-006 | Active / Paused / Planned, Trống | Ready |
@@ -211,6 +211,22 @@ Tên export theo `07-claude-design-output-contract.md`: `<Frame ID> - <Frame Nam
 | A-074 | Common | Notification template/config baseline | `A-074 - Notification template/config baseline - Web 1440` · `A-074.dc.html` | Admin & Landing | Web 1440 | F-034 | Mẫu việc/thanh toán/chat/khoá | Ready |
 | A-075 | Common | Data/privacy request queue | `A-075 - Data/privacy request queue - Web 1440` · `A-075.dc.html` | Admin & Landing | Web 1440 | Privacy | Xuất/xoá, ngoại lệ | Ready |
 | A-076 | Common | Data/privacy request detail | `A-076 - Data/privacy request detail - Web 1440` · `A-076.dc.html` | Admin & Landing | Web 1440 | Privacy | Quyết định & audit | Ready |
+| A-077 | Common | Live ops map | `A-077 - Live ops map - Web 1440` · `A-077.dc.html` | Admin & Landing | Web 1440 | Ops baseline, F-010 | Tổng quan, Chọn chuyến bị kẹt | Ready |
+| A-078 | Common | Ride trip list | `A-078 - Ride trip list - Web 1440` · `A-078.dc.html` | Admin & Landing | Web 1440 | F-010, UF-001 | Tất cả, Lọc kẹt trạng thái | Ready |
+| A-079 | Common | Ride trip detail | `A-079 - Ride trip detail - Web 1440` · `A-079.dc.html` | Admin & Landing | Web 1440 | F-010, UF-001, UF-005 | Hoàn thành, Tranh chấp thanh toán | Ready |
+| A-080 | Common | Food order list | `A-080 - Food order list - Web 1440` · `A-080.dc.html` | Admin & Landing | Web 1440 | UF-002 | Tất cả | Ready |
+| A-081 | Common | Food order detail | `A-081 - Food order detail - Web 1440` · `A-081.dc.html` | Admin & Landing | Web 1440 | UF-002, UF-003 | Đang có đề xuất, Đã giao | Ready |
+| A-082 | S-021 | Case-linked chat transcript | `A-082 - Case-linked chat transcript - Web 1440` · `A-082.dc.html` | Admin & Landing | Web 1440 | UF-007, F-023 | Chỉ đọc, gắn hồ sơ | Ready |
+| A-083 | S-019 | Driver performance & ratings | `A-083 - Driver performance & ratings - Web 1440` · `A-083.dc.html` | Admin & Landing | Web 1440 | F-020, F-022 | Hiệu suất & đánh giá | Ready |
+| A-084 | S-019 | Document requirement config | `A-084 - Document requirement config - Web 1440` · `A-084.dc.html` | Admin & Landing | Web 1440 | F-002 | Ma trận giấy tờ | Ready |
+| A-085 | Common | Risk signal queue | `A-085 - Risk signal queue - Web 1440` · `A-085.dc.html` | Admin & Landing | Web 1440 | F-022, device-risk | Danh sách tín hiệu | Ready |
+| A-086 | Common | Device identity detail | `A-086 - Device identity detail - Web 1440` · `A-086.dc.html` | Admin & Landing | Web 1440 | F-022, device-risk | Tài khoản liên kết & quyết định | Ready |
+| A-087 | Common | Platform fee refund | `A-087 - Platform fee refund - Web 1440` · `A-087.dc.html` | Admin & Landing | Web 1440 | F-003, BR-DRV-REFUND-001 | Hàng đợi, Chi tiết & tính hoàn | Ready |
+| A-088 | Common | Terms & consent versions | `A-088 - Terms & consent versions - Web 1440` · `A-088.dc.html` | Admin & Landing | Web 1440 | Privacy, ConsentRecord | Phiên bản & xuất bản | Ready |
+| A-089 | Common | App version / force update config | `A-089 - App version / force update config - Web 1440` · `A-089.dc.html` | Admin & Landing | Web 1440 | app-version | Cấu hình theo app/nền tảng | Ready |
+| A-090 | Common | Invite admin user | `A-090 - Invite admin user - Web 1440` · `A-090.dc.html` | Admin & Landing | Web 1440 | RBAC | Mời có vai trò & phạm vi | Ready |
+| A-091 | Common | Controlled data export | `A-091 - Controlled data export - Web 1440` · `A-091.dc.html` | Admin & Landing | Web 1440 | RBAC Export data | Phạm vi, che dữ liệu, lý do | Ready |
+| A-092 | Common | Abuse limits & blocked identities | `A-092 - Abuse limits & blocked identities - Web 1440` · `A-092.dc.html` | Admin & Landing | Web 1440 | Abuse protection | Giới hạn & gỡ chặn | Ready |
 | L-001 | Landing | Landing home hero | `L-001 - Landing home hero - Web` · `L-001.dc.html` | Admin & Landing | Web | Public | Desktop, Mobile | Ready |
 | L-002 | Landing | Customer value section | `L-002 - Customer value section - Web` · `L-002.dc.html` | Admin & Landing | Web | Public | Đi xe + Đặt món | Ready |
 | L-003 | Landing | Driver acquisition section | `L-003 - Driver acquisition section - Web` · `L-003.dc.html` | Admin & Landing | Web | Driver acquisition | 0% hoa hồng + gói ra mắt | Ready |
@@ -223,4 +239,4 @@ Tên export theo `07-claude-design-output-contract.md`: `<Frame ID> - <Frame Nam
 | L-010 | Landing | Privacy page | `L-010 - Privacy page - Web` · `L-010.dc.html` | Admin & Landing | Web | Legal/Privacy | Khung nội dung quyền riêng tư | Ready |
 | L-011 | Landing | Contact/support page | `L-011 - Contact/support page - Web` · `L-011.dc.html` | Admin & Landing | Web | Support | Khách, tài xế, đối tác | Ready |
 
-Tổng: 216 frame, 371 trạng thái. Frame thiếu so với frame map: không có.
+Tổng: 232 frame, 392 trạng thái. Frame thiếu so với frame map: không có.
