@@ -71,12 +71,23 @@ def a000():
     return [("Mặc định", login_panel()), ("Sai thông tin", login_panel("invalid")), ("Bị khoá", login_panel("locked"))]
 
 
+def auth_shell(form):
+    return (f'<div style="width: {AW}px; height: {AH}px; display: flex; font-family: {FONT}; color: {C["t1"]}; background: #FFFFFF; border: 1px solid {C["b2"]}; box-sizing: border-box">'
+            f'<div style="flex: 1; display: flex; align-items: center; justify-content: center">{form}</div>'
+            f'<div style="flex: 1; background: {C["inverse"]}; display: flex; flex-direction: column; justify-content: flex-end; padding: 56px; gap: 12px">{mark_img(56, True)}'
+            f'<div style="{TY["dmd"]}; color: #FFFFFF; font-size: 36px; max-width: 480px">Vận hành minh bạch, mọi thao tác đều có lý do và dấu vết.</div>'
+            f'<div style="{TY["bmd"]}; color: {C["tinv2"]}">Onway Ops · TP. Hồ Chí Minh</div></div></div>')
+
+
 def second_factor(err=False):
-    f = (f'<div style="width: 400px; display: flex; flex-direction: column; gap: 20px">{logo_img(32)}{h("Xác minh hai bước", "hlg")}'
-         f'{txt("Nhập mã 6 số từ ứng dụng xác thực của bạn.", "bmd", C["t2"])}{otp_boxes("281" if not err else "281930", err, 3 if not err else None)}'
-         + (f'<div style="display: flex; gap: 6px; align-items: center; {TY["bsm"]}; color: {C["err"]}">{icon("alert-circle", 16, C["err"])}Mã không đúng hoặc đã hết hạn.</div>' if err else "")
-         + f'{btn("Xác minh", "primary", "lg", full=True, href="A-005.dc.html")}<a href="#" style="{TY["bsm"]}; font-weight: 600">Dùng mã dự phòng</a></div>')
-    return f'<div style="width: {AW}px; height: {AH}px; display: flex; align-items: center; justify-content: center; font-family: {FONT}; color: {C["t1"]}; background: {C["page"]}; border: 1px solid {C["b2"]}; box-sizing: border-box">{card(f, pad=40)}</div>'
+    msg = (f'<div style="display: flex; gap: 6px; align-items: center; {TY["bsm"]}; color: {C["err"]}">{icon("alert-circle", 16, C["err"])}Mã không đúng hoặc đã hết hạn. Bạn còn 4 lần thử.</div>' if err else "")
+    form = (f'<div style="width: 400px; display: flex; flex-direction: column; gap: 20px">{logo_img(32)}<div>{h("Xác minh hai bước", "hlg")}'
+            f'{txt("Nhập mã 6 số từ ứng dụng xác thực cho tài khoản <b>lan.nguyen@onway.vn</b>.", "bsm", C["t2"], extra="margin-top: 6px")}</div>'
+            f'{otp_boxes("281" if not err else "281930", err, 3 if not err else None)}{msg}'
+            f'{btn("Xác minh", "primary", "lg", full=True, href="A-005.dc.html")}'
+            f'{row(f"<a href={chr(34)}A-000.dc.html{chr(34)} style={chr(34)}font-size: 13px; font-weight: 600{chr(34)}>← Quay lại đăng nhập</a>", spacer(), f"<a href={chr(34)}#{chr(34)} style={chr(34)}font-size: 13px; font-weight: 600{chr(34)}>Dùng mã dự phòng</a>")}'
+            f'{txt("Mọi phiên đăng nhập được ghi nhật ký audit.", "cap", C["t3"])}</div>')
+    return auth_shell(form)
 
 
 @frame("A-001", "OTP / second factor if enabled", "Đăng nhập & khung")

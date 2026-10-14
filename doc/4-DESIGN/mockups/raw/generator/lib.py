@@ -826,7 +826,7 @@ def sidebar(active, collapsed=False):
             on = key == active
             b = badge(NAV_BADGE[key], "brand" if key in ("case", "autolock", "risk") else "ink") if key in NAV_BADGE else ""
             out += (f'<a href="#" aria-current="{"page" if on else "false"}" style="display: flex; align-items: center; gap: 10px; height: 32px; padding: 0 12px; border-radius: 8px; text-decoration: none; '
-                    f'background: {C["active"] if on else "transparent"}; color: {C["t1"] if on else C["t2"]}; font-size: 14px; font-weight: {600 if on else 500}">{icon(ic, 18)}<span style="flex-grow: 1">{lab}</span>{b}</a>')
+                    f'background: {C["active"] if on else "transparent"}; color: {C["t1"] if on else C["t2"]}; font-size: 14px; font-weight: 400">{icon(ic, 18)}<span style="flex-grow: 1">{lab}</span>{b}</a>')
     return (f'<nav aria-label="Điều hướng quản trị" style="width: 248px; flex-shrink: 0; background: {C["card"]}; border-right: 1px solid {C["b2"]}; display: flex; flex-direction: column; box-sizing: border-box">'
             f'<div style="height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px 0 20px; border-bottom: 1px solid {C["b1"]}; flex-shrink: 0">'
             f'{_admin_logo()}'
